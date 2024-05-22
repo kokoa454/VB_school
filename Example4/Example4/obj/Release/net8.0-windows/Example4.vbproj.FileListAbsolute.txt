@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Example4\Example4\bin\Release\net8.0-windows\Example4.exe
+C:\Users\qqnq7\source\repos\Example4\Example4\bin\Release\net8.0-windows\Example4.deps.json
+C:\Users\qqnq7\source\repos\Example4\Example4\bin\Release\net8.0-windows\Example4.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Example4\Example4\bin\Release\net8.0-windows\Example4.dll
+C:\Users\qqnq7\source\repos\Example4\Example4\bin\Release\net8.0-windows\Example4.pdb
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.Form1.resources
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.dll
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\refint\Example4.dll
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.pdb
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\Example4.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Example4\Example4\obj\Release\net8.0-windows\ref\Example4.dll
