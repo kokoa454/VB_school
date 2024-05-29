@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\source\\repos\\Example6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE2D33D-3A4B-4368-AA5B-4376CBBD2817}|Example6\\Example6.vbproj|c:\\users\\qqnq7\\source\\repos\\example6\\example6\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AAE2D33D-3A4B-4368-AA5B-4376CBBD2817}|Example6\\Example6.vbproj|solutionrelative:example6\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE2D33D-3A4B-4368-AA5B-4376CBBD2817}|Example6\\Example6.vbproj|C:\\Users\\qqnq7\\source\\repos\\Example6\\example6\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{AAE2D33D-3A4B-4368-AA5B-4376CBBD2817}|Example6\\Example6.vbproj|solutionrelative:example6\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example6\\Example6\\Form1.vb",
+              "RelativeDocumentMoniker": "Example6\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example6\\Example6\\Form1.vb",
+              "RelativeToolTip": "Example6\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-29T01:19:27.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example6\\Example6\\Form1.vb",
+              "RelativeDocumentMoniker": "Example6\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example6\\Example6\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "Example6\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-29T01:18:33.81Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
