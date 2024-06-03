@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Test3\Test3\bin\Debug\net8.0-windows\Test3.exe
+C:\Users\qqnq7\source\repos\Test3\Test3\bin\Debug\net8.0-windows\Test3.deps.json
+C:\Users\qqnq7\source\repos\Test3\Test3\bin\Debug\net8.0-windows\Test3.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Test3\Test3\bin\Debug\net8.0-windows\Test3.dll
+C:\Users\qqnq7\source\repos\Test3\Test3\bin\Debug\net8.0-windows\Test3.pdb
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.Form1.resources
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.dll
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\refint\Test3.dll
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.pdb
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\Test3.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Test3\Test3\obj\Debug\net8.0-windows\ref\Test3.dll
