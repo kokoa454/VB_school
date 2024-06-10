@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\source\\repos\\Example8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|c:\\users\\qqnq7\\source\\repos\\example8\\example8\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|solutionrelative:example8\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|c:\\users\\qqnq7\\source\\repos\\example8\\example8\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|solutionrelative:example8\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|c:\\users\\qqnq7\\source\\repos\\example8\\example8\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{027FCC55-2354-440A-9967-10298632B194}|Example8\\Example8.vbproj|solutionrelative:example8\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Form1.vb",
+              "RelativeDocumentMoniker": "Example8\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Form1.vb",
+              "RelativeToolTip": "Example8\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-10T02:13:41.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Module1.vb",
+              "RelativeDocumentMoniker": "Example8\\Module1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Module1.vb",
+              "RelativeToolTip": "Example8\\Module1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-10T02:09:27.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Form1.vb",
+              "RelativeDocumentMoniker": "Example8\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example8\\Example8\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "Example8\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-10T02:08:37.818Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

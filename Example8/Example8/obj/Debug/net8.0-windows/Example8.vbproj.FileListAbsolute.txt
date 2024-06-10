@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Example8\Example8\bin\Debug\net8.0-windows\Example8.exe
+C:\Users\qqnq7\source\repos\Example8\Example8\bin\Debug\net8.0-windows\Example8.deps.json
+C:\Users\qqnq7\source\repos\Example8\Example8\bin\Debug\net8.0-windows\Example8.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Example8\Example8\bin\Debug\net8.0-windows\Example8.dll
+C:\Users\qqnq7\source\repos\Example8\Example8\bin\Debug\net8.0-windows\Example8.pdb
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.Form1.resources
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.dll
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\refint\Example8.dll
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.pdb
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\Example8.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Example8\Example8\obj\Debug\net8.0-windows\ref\Example8.dll
