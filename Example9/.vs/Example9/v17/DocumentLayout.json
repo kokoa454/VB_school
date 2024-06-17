@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\source\\repos\\Example9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|C:\\Users\\qqnq7\\source\\repos\\Example9\\example9\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|solutionrelative:example9\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|C:\\Users\\qqnq7\\source\\repos\\Example9\\example9\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|solutionrelative:example9\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|c:\\users\\qqnq7\\source\\repos\\example9\\example9\\zahyou.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9C41B090-5284-4472-89BE-D0B5E0D8BB06}|Example9\\Example9.vbproj|solutionrelative:example9\\zahyou.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Zahyou.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Zahyou.vb",
+              "RelativeDocumentMoniker": "Example9\\Zahyou.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Zahyou.vb",
+              "RelativeToolTip": "Example9\\Zahyou.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-17T02:12:13.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Form1.vb",
+              "RelativeDocumentMoniker": "Example9\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Form1.vb",
+              "RelativeToolTip": "Example9\\Form1.vb",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwBAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-17T02:09:49.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Form1.vb",
+              "RelativeDocumentMoniker": "Example9\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Example9\\Example9\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "Example9\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-17T02:08:03.912Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
