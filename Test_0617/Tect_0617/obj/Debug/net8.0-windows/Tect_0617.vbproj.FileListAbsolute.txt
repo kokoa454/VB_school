@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.Form1.resources
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\bin\Debug\net8.0-windows\Tect_0617.exe
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\bin\Debug\net8.0-windows\Tect_0617.deps.json
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\bin\Debug\net8.0-windows\Tect_0617.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\bin\Debug\net8.0-windows\Tect_0617.dll
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\bin\Debug\net8.0-windows\Tect_0617.pdb
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.dll
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\refint\Tect_0617.dll
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.pdb
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\Tect_0617.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Tect_0617\Tect_0617\obj\Debug\net8.0-windows\ref\Tect_0617.dll
