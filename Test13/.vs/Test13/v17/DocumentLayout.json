@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\source\\repos\\Test13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0D4171-615B-4CB3-952D-A5BAC2D7E2E8}|Test13\\Test13.vbproj|c:\\users\\qqnq7\\source\\repos\\test13\\test13\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5C0D4171-615B-4CB3-952D-A5BAC2D7E2E8}|Test13\\Test13.vbproj|solutionrelative:test13\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0D4171-615B-4CB3-952D-A5BAC2D7E2E8}|Test13\\Test13.vbproj|c:\\users\\qqnq7\\source\\repos\\test13\\test13\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5C0D4171-615B-4CB3-952D-A5BAC2D7E2E8}|Test13\\Test13.vbproj|solutionrelative:test13\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Test13\\Test13\\Form1.vb",
+              "RelativeDocumentMoniker": "Test13\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Test13\\Test13\\Form1.vb",
+              "RelativeToolTip": "Test13\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T03:07:54.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\Test13\\Test13\\Form1.vb",
+              "RelativeDocumentMoniker": "Test13\\Form1.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\Test13\\Test13\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "Test13\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T03:06:28.058Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

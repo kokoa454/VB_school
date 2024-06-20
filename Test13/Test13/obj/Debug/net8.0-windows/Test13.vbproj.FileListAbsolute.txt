@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Test13\Test13\bin\Debug\net8.0-windows\Test13.exe
+C:\Users\qqnq7\source\repos\Test13\Test13\bin\Debug\net8.0-windows\Test13.deps.json
+C:\Users\qqnq7\source\repos\Test13\Test13\bin\Debug\net8.0-windows\Test13.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Test13\Test13\bin\Debug\net8.0-windows\Test13.dll
+C:\Users\qqnq7\source\repos\Test13\Test13\bin\Debug\net8.0-windows\Test13.pdb
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.Form1.resources
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.dll
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\refint\Test13.dll
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.pdb
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\Test13.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Test13\Test13\obj\Debug\net8.0-windows\ref\Test13.dll
