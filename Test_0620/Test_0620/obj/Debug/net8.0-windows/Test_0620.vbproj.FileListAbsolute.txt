@@ -1,0 +1,16 @@
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\bin\Debug\net8.0-windows\Test_0620.exe
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\bin\Debug\net8.0-windows\Test_0620.deps.json
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\bin\Debug\net8.0-windows\Test_0620.runtimeconfig.json
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\bin\Debug\net8.0-windows\Test_0620.dll
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\bin\Debug\net8.0-windows\Test_0620.pdb
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.Form1.resources
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.vbproj.GenerateResource.cache
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.AssemblyInfoInputs.cache
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.AssemblyInfo.vb
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.dll
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\refint\Test_0620.dll
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.pdb
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\Test_0620.genruntimeconfig.cache
+C:\Users\qqnq7\source\repos\Test_0620\Test_0620\obj\Debug\net8.0-windows\ref\Test_0620.dll
