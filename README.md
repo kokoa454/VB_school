@@ -1,1 +1,1 @@
-Visual Basic at school
+Visual Basic in school
