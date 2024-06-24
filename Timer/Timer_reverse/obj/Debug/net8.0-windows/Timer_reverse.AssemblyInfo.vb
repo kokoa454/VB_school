@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("Timer"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("Timer_reverse"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b6bc5d012b670a67009d0cae2f9fa9ccaf3af3"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("Timer"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("Timer"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("Timer_reverse"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("Timer_reverse"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
