@@ -64,7 +64,7 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 13F)
-        Label4.Location = New Point(290, 145)
+        Label4.Location = New Point(265, 145)
         Label4.Name = "Label4"
         Label4.Size = New Size(50, 42)
         Label4.TabIndex = 7
@@ -74,7 +74,7 @@ Partial Class Form1
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 13F)
-        Label5.Location = New Point(526, 140)
+        Label5.Location = New Point(581, 145)
         Label5.Name = "Label5"
         Label5.Size = New Size(50, 42)
         Label5.TabIndex = 8
@@ -86,9 +86,10 @@ Partial Class Form1
         ' TextBox_min
         ' 
         TextBox_min.Font = New Font("Segoe UI", 30F)
-        TextBox_min.Location = New Point(112, 81)
+        TextBox_min.ImeMode = ImeMode.Alpha
+        TextBox_min.Location = New Point(37, 81)
         TextBox_min.Name = "TextBox_min"
-        TextBox_min.Size = New Size(155, 101)
+        TextBox_min.Size = New Size(222, 101)
         TextBox_min.TabIndex = 9
         TextBox_min.Text = "0"
         TextBox_min.TextAlign = HorizontalAlignment.Center
@@ -96,9 +97,10 @@ Partial Class Form1
         ' TextBox_sec
         ' 
         TextBox_sec.Font = New Font("Segoe UI", 30F)
-        TextBox_sec.Location = New Point(372, 81)
+        TextBox_sec.ImeMode = ImeMode.Alpha
+        TextBox_sec.Location = New Point(354, 81)
         TextBox_sec.Name = "TextBox_sec"
-        TextBox_sec.Size = New Size(148, 101)
+        TextBox_sec.Size = New Size(221, 101)
         TextBox_sec.TabIndex = 10
         TextBox_sec.Text = "0"
         TextBox_sec.TextAlign = HorizontalAlignment.Center

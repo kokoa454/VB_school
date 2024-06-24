@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Timer_reverse"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b6bc5d012b670a67009d0cae2f9fa9ccaf3af3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4b45f72ae11e020bda8da8e32ee6b928c85d1de"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Timer_reverse"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Timer_reverse"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

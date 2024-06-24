@@ -24,7 +24,7 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
         Timer1.Interval = 1000
-            TextBox_sec.Text = Val(TextBox_sec.Text) - 1
+        TextBox_sec.Text = Val(TextBox_sec.Text) - 1
 
         If (TextBox_sec.Text = 0) Then
             If (TextBox_min.Text <> 0) Then
@@ -35,6 +35,11 @@
 
         If (TextBox_sec.Text = 0) Then
             Timer1.Enabled = False
+        End If
+
+        If (TextBox_min.Text = 0 And TextBox_sec.Text <= 10) Then
+            TextBox_min.ForeColor = Color.Red
+            TextBox_sec.ForeColor = Color.Red
         End If
     End Sub
 End Class
