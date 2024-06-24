@@ -1,0 +1,17 @@
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\bin\Debug\net8.0-windows\Timer_reverse.exe
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\bin\Debug\net8.0-windows\Timer_reverse.deps.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\bin\Debug\net8.0-windows\Timer_reverse.runtimeconfig.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\bin\Debug\net8.0-windows\Timer_reverse.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\bin\Debug\net8.0-windows\Timer_reverse.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.Form1.resources
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.vbproj.GenerateResource.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.AssemblyInfoInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.AssemblyInfo.vb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.sourcelink.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\refint\Timer_reverse.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\Timer_reverse.genruntimeconfig.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer_reverse\Timer_reverse\obj\Debug\net8.0-windows\ref\Timer_reverse.dll
