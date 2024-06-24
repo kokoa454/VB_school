@@ -32,6 +32,8 @@ Partial Class Form1
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
+        TextBox_lap = New TextBox()
+        Button_lap = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -48,7 +50,7 @@ Partial Class Form1
         ' 
         Button_start.Location = New Point(160, 188)
         Button_start.Name = "Button_start"
-        Button_start.Size = New Size(131, 40)
+        Button_start.Size = New Size(131, 74)
         Button_start.TabIndex = 1
         Button_start.Text = "START"
         Button_start.UseVisualStyleBackColor = True
@@ -57,7 +59,7 @@ Partial Class Form1
         ' 
         Button_stop.Location = New Point(525, 188)
         Button_stop.Name = "Button_stop"
-        Button_stop.Size = New Size(131, 40)
+        Button_stop.Size = New Size(131, 74)
         Button_stop.TabIndex = 2
         Button_stop.Text = "STOP"
         Button_stop.UseVisualStyleBackColor = True
@@ -66,7 +68,7 @@ Partial Class Form1
         ' 
         Button_reset.Location = New Point(160, 344)
         Button_reset.Name = "Button_reset"
-        Button_reset.Size = New Size(131, 40)
+        Button_reset.Size = New Size(131, 67)
         Button_reset.TabIndex = 3
         Button_reset.Text = "RESET"
         Button_reset.UseVisualStyleBackColor = True
@@ -112,11 +114,32 @@ Partial Class Form1
         Label5.TabIndex = 7
         Label5.Text = "秒"
         ' 
+        ' TextBox_lap
+        ' 
+        TextBox_lap.Font = New Font("Segoe UI", 12F)
+        TextBox_lap.Location = New Point(160, 467)
+        TextBox_lap.Multiline = True
+        TextBox_lap.Name = "TextBox_lap"
+        TextBox_lap.ReadOnly = True
+        TextBox_lap.Size = New Size(496, 301)
+        TextBox_lap.TabIndex = 8
+        ' 
+        ' Button_lap
+        ' 
+        Button_lap.Location = New Point(525, 344)
+        Button_lap.Name = "Button_lap"
+        Button_lap.Size = New Size(131, 67)
+        Button_lap.TabIndex = 9
+        Button_lap.Text = "LAP"
+        Button_lap.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(12F, 30F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(800, 798)
+        Controls.Add(Button_lap)
+        Controls.Add(TextBox_lap)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -140,5 +163,7 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox_lap As TextBox
+    Friend WithEvents Button_lap As Button
 
 End Class

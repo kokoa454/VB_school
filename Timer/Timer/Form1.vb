@@ -28,4 +28,11 @@
         Label3.Text = 0
     End Sub
 
+    Dim cnt = 1
+    Private Sub Button_lap_Click(sender As Object, e As EventArgs) Handles Button_lap.Click
+
+        TextBox_lap.Text = TextBox_lap.Text & "No." & cnt & "  " & Label1.Text & "分" & Label2.Text & "秒" & Label3.Text & vbCrLf
+        cnt = cnt + 1
+
+    End Sub
 End Class
