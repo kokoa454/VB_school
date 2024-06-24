@@ -1,0 +1,17 @@
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\bin\Debug\net8.0-windows\Timer.exe
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\bin\Debug\net8.0-windows\Timer.deps.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\bin\Debug\net8.0-windows\Timer.runtimeconfig.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\bin\Debug\net8.0-windows\Timer.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\bin\Debug\net8.0-windows\Timer.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.Form1.resources
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.vbproj.GenerateResource.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.AssemblyInfoInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.AssemblyInfo.vb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.sourcelink.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\refint\Timer.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\Timer.genruntimeconfig.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Timer\Timer\obj\Debug\net8.0-windows\ref\Timer.dll
