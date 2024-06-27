@@ -37,8 +37,8 @@ Partial Class Form1
         Button_youtube = New Button()
         Button_sabotage = New Button()
         Button_education = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
+        Button_contact = New Button()
+        Button_attack = New Button()
         SuspendLayout()
         ' 
         ' Label_enemyName
@@ -52,6 +52,7 @@ Partial Class Form1
         ' 
         ' Label_days
         ' 
+        Label_days.Font = New Font("Segoe UI", 10F)
         Label_days.Location = New Point(662, 53)
         Label_days.Name = "Label_days"
         Label_days.Size = New Size(57, 30)
@@ -62,23 +63,26 @@ Partial Class Form1
         ' Label_text1
         ' 
         Label_text1.AutoSize = True
+        Label_text1.Font = New Font("Segoe UI", 10F)
         Label_text1.Location = New Point(569, 53)
         Label_text1.Name = "Label_text1"
-        Label_text1.Size = New Size(93, 30)
+        Label_text1.Size = New Size(105, 32)
         Label_text1.TabIndex = 2
         Label_text1.Text = "残り日数"
         ' 
         ' Label_text2
         ' 
         Label_text2.AutoSize = True
+        Label_text2.Font = New Font("Segoe UI", 10F)
         Label_text2.Location = New Point(725, 53)
         Label_text2.Name = "Label_text2"
-        Label_text2.Size = New Size(35, 30)
+        Label_text2.Size = New Size(39, 32)
         Label_text2.TabIndex = 3
         Label_text2.Text = "日"
         ' 
         ' ProgressBar1
         ' 
+        ProgressBar1.ForeColor = Color.Red
         ProgressBar1.Location = New Point(46, 246)
         ProgressBar1.Name = "ProgressBar1"
         ProgressBar1.Size = New Size(739, 40)
@@ -86,6 +90,7 @@ Partial Class Form1
         ' 
         ' Label_barBottom1
         ' 
+        Label_barBottom1.Font = New Font("Segoe UI", 10F)
         Label_barBottom1.Location = New Point(607, 316)
         Label_barBottom1.Name = "Label_barBottom1"
         Label_barBottom1.Size = New Size(55, 30)
@@ -96,15 +101,17 @@ Partial Class Form1
         ' Label_barBottom2
         ' 
         Label_barBottom2.AutoSize = True
+        Label_barBottom2.Font = New Font("Segoe UI", 10F)
         Label_barBottom2.Location = New Point(677, 316)
         Label_barBottom2.Name = "Label_barBottom2"
-        Label_barBottom2.Size = New Size(21, 30)
+        Label_barBottom2.Size = New Size(23, 32)
         Label_barBottom2.TabIndex = 6
         Label_barBottom2.Text = "/"
         Label_barBottom2.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Label_barBottom3
         ' 
+        Label_barBottom3.Font = New Font("Segoe UI", 10F)
         Label_barBottom3.Location = New Point(691, 316)
         Label_barBottom3.Name = "Label_barBottom3"
         Label_barBottom3.Size = New Size(58, 30)
@@ -125,14 +132,16 @@ Partial Class Form1
         ' Label_barBottom4
         ' 
         Label_barBottom4.AutoSize = True
+        Label_barBottom4.Font = New Font("Segoe UI", 10F)
         Label_barBottom4.Location = New Point(755, 316)
         Label_barBottom4.Name = "Label_barBottom4"
-        Label_barBottom4.Size = New Size(30, 30)
+        Label_barBottom4.Size = New Size(34, 32)
         Label_barBottom4.TabIndex = 9
         Label_barBottom4.Text = "%"
         ' 
         ' Button_demoMarch
         ' 
+        Button_demoMarch.Font = New Font("Segoe UI", 11F)
         Button_demoMarch.Location = New Point(46, 493)
         Button_demoMarch.Name = "Button_demoMarch"
         Button_demoMarch.Size = New Size(246, 132)
@@ -146,11 +155,11 @@ Partial Class Form1
         Label_result.Name = "Label_result"
         Label_result.Size = New Size(646, 89)
         Label_result.TabIndex = 11
-        Label_result.Text = "0"
         Label_result.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Button_youtube
         ' 
+        Button_youtube.Font = New Font("Segoe UI", 11F)
         Button_youtube.Location = New Point(298, 493)
         Button_youtube.Name = "Button_youtube"
         Button_youtube.Size = New Size(253, 132)
@@ -160,47 +169,54 @@ Partial Class Form1
         ' 
         ' Button_sabotage
         ' 
+        Button_sabotage.Font = New Font("Segoe UI", 11F)
         Button_sabotage.Location = New Point(557, 493)
         Button_sabotage.Name = "Button_sabotage"
         Button_sabotage.Size = New Size(244, 132)
         Button_sabotage.TabIndex = 13
-        Button_sabotage.Text = "政府と癒着のある企業に" & vbCrLf & "サボタージュを仕掛ける" & vbCrLf
+        Button_sabotage.Text = "政府との癒着企業" & vbCrLf & "にサボタージュ"
         Button_sabotage.UseVisualStyleBackColor = True
         ' 
         ' Button_education
         ' 
+        Button_education.Font = New Font("Segoe UI", 11F)
         Button_education.Location = New Point(46, 692)
         Button_education.Name = "Button_education"
         Button_education.Size = New Size(246, 132)
         Button_education.TabIndex = 14
-        Button_education.Text = "大学で新メンバー勧誘" & vbCrLf & "思想教育セミナーを開催"
+        Button_education.Text = "大学でメンバー勧誘" & vbCrLf & "思想教育セミナー" & vbCrLf & "を開催"
         Button_education.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' Button_contact
         ' 
-        Button2.Location = New Point(298, 692)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(253, 132)
-        Button2.TabIndex = 15
-        Button2.Text = "国会前で" & vbCrLf & "デモ集会を敢行"
-        Button2.UseVisualStyleBackColor = True
+        Button_contact.Font = New Font("Segoe UI", 11F)
+        Button_contact.Location = New Point(298, 692)
+        Button_contact.Name = "Button_contact"
+        Button_contact.Size = New Size(253, 132)
+        Button_contact.TabIndex = 15
+        Button_contact.Text = "他国の同志と" & vbCrLf & "お互いの活動を共有"
+        Button_contact.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' Button_attack
         ' 
-        Button3.Location = New Point(555, 692)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(246, 132)
-        Button3.TabIndex = 16
-        Button3.Text = "国会前で" & vbCrLf & "デモ集会を敢行"
-        Button3.UseVisualStyleBackColor = True
+        Button_attack.BackColor = Color.Red
+        Button_attack.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button_attack.ForeColor = Color.Yellow
+        Button_attack.Location = New Point(555, 692)
+        Button_attack.Name = "Button_attack"
+        Button_attack.Size = New Size(246, 132)
+        Button_attack.TabIndex = 16
+        Button_attack.Text = "政府部に全員で" & vbCrLf & "武装攻撃" & vbCrLf & "（最終手段）"
+        Button_attack.UseVisualStyleBackColor = False
+        Button_attack.Visible = False
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(12F, 30F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(824, 927)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
+        Controls.Add(Button_attack)
+        Controls.Add(Button_contact)
         Controls.Add(Button_education)
         Controls.Add(Button_sabotage)
         Controls.Add(Button_youtube)
@@ -237,7 +253,7 @@ Partial Class Form1
     Friend WithEvents Button_youtube As Button
     Friend WithEvents Button_sabotage As Button
     Friend WithEvents Button_education As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents Button_contact As Button
+    Friend WithEvents Button_attack As Button
 
 End Class
