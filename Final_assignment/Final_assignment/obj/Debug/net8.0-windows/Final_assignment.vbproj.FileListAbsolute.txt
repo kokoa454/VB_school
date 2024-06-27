@@ -1,0 +1,17 @@
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\bin\Debug\net8.0-windows\Final_assignment.exe
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\bin\Debug\net8.0-windows\Final_assignment.deps.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\bin\Debug\net8.0-windows\Final_assignment.runtimeconfig.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\bin\Debug\net8.0-windows\Final_assignment.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\bin\Debug\net8.0-windows\Final_assignment.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.Form1.resources
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.vbproj.GenerateResource.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.AssemblyInfoInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.AssemblyInfo.vb
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.vbproj.CoreCompileInputs.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.sourcelink.json
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\refint\Final_assignment.dll
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.pdb
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\Final_assignment.genruntimeconfig.cache
+C:\Users\qqnq7\Documents\Programming\VB_school\Final_assignment\Final_assignment\obj\Debug\net8.0-windows\ref\Final_assignment.dll
