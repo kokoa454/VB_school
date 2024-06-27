@@ -53,9 +53,9 @@ Partial Class Form1
         ' Label_days
         ' 
         Label_days.Font = New Font("Segoe UI", 10F)
-        Label_days.Location = New Point(662, 53)
+        Label_days.Location = New Point(662, 52)
         Label_days.Name = "Label_days"
-        Label_days.Size = New Size(57, 30)
+        Label_days.Size = New Size(72, 30)
         Label_days.TabIndex = 1
         Label_days.Text = "0"
         Label_days.TextAlign = ContentAlignment.MiddleRight
@@ -64,7 +64,7 @@ Partial Class Form1
         ' 
         Label_text1.AutoSize = True
         Label_text1.Font = New Font("Segoe UI", 10F)
-        Label_text1.Location = New Point(569, 53)
+        Label_text1.Location = New Point(551, 51)
         Label_text1.Name = "Label_text1"
         Label_text1.Size = New Size(105, 32)
         Label_text1.TabIndex = 2
@@ -91,9 +91,9 @@ Partial Class Form1
         ' Label_barBottom1
         ' 
         Label_barBottom1.Font = New Font("Segoe UI", 10F)
-        Label_barBottom1.Location = New Point(607, 316)
+        Label_barBottom1.Location = New Point(592, 316)
         Label_barBottom1.Name = "Label_barBottom1"
-        Label_barBottom1.Size = New Size(55, 30)
+        Label_barBottom1.Size = New Size(70, 30)
         Label_barBottom1.TabIndex = 5
         Label_barBottom1.Text = "0"
         Label_barBottom1.TextAlign = ContentAlignment.MiddleRight
@@ -102,7 +102,7 @@ Partial Class Form1
         ' 
         Label_barBottom2.AutoSize = True
         Label_barBottom2.Font = New Font("Segoe UI", 10F)
-        Label_barBottom2.Location = New Point(677, 316)
+        Label_barBottom2.Location = New Point(662, 314)
         Label_barBottom2.Name = "Label_barBottom2"
         Label_barBottom2.Size = New Size(23, 32)
         Label_barBottom2.TabIndex = 6
@@ -112,9 +112,9 @@ Partial Class Form1
         ' Label_barBottom3
         ' 
         Label_barBottom3.Font = New Font("Segoe UI", 10F)
-        Label_barBottom3.Location = New Point(691, 316)
+        Label_barBottom3.Location = New Point(681, 316)
         Label_barBottom3.Name = "Label_barBottom3"
-        Label_barBottom3.Size = New Size(58, 30)
+        Label_barBottom3.Size = New Size(68, 30)
         Label_barBottom3.TabIndex = 7
         Label_barBottom3.Text = "0"
         Label_barBottom3.TextAlign = ContentAlignment.MiddleRight
