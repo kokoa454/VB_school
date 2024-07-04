@@ -1,7 +1,6 @@
 ﻿Imports System.Security.Cryptography
 
 Public Class Form_main
-
     Private Sub Progressbar1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label_barBottom1.Text = 0
         Label_barBottom3.Text = 100
@@ -11,6 +10,22 @@ Public Class Form_main
         ProgressBar1.Maximum = 100
         ProgressBar1.Value = 0
 
+    End Sub
+
+    Private Sub checkDays()
+        If (Label_days.Text <= 0) Then
+            Label_days.Text = 0
+
+            Dim form_lose As New Form_lose
+            form_lose.ShowDialog()
+        End If
+    End Sub
+
+    Private Sub checkWin()
+        If (ProgressBar1.Value >= 100) Then
+            Dim form_win As New Form_win
+            form_win.ShowDialog()
+        End If
     End Sub
 
     Private Sub sabotageByGov()
@@ -60,11 +75,12 @@ Public Class Form_main
         Else
             ProgressBar1.Value = ProgressBar1.Value + num
             Label_barBottom1.Text = ProgressBar1.Value.ToString
-            Label_result.Text = "我々の言葉が国民に心に響いた！" & vbCrLf & "政権が退陣するまで" & 100 - ProgressBar1.Value & "%"
+            Label_result.Text = "我々の言葉が国民の心に響いた！" & vbCrLf & "政権が退陣するまで" & 100 - ProgressBar1.Value & "%"
         End If
 
         Label_days.Text = Label_days.Text - 150
 
+        checkDays()
         canAttack()
         sabotageByGov()
     End Sub
@@ -85,6 +101,7 @@ Public Class Form_main
 
         Label_days.Text = Label_days.Text - 30
 
+        checkDays()
         canAttack()
         sabotageByGov()
     End Sub
@@ -105,6 +122,7 @@ Public Class Form_main
 
         Label_days.Text = Label_days.Text - 60
 
+        checkDays()
         canAttack()
         sabotageByGov()
     End Sub
@@ -125,6 +143,7 @@ Public Class Form_main
 
         Label_days.Text = Label_days.Text - 30
 
+        checkDays()
         canAttack()
         sabotageByGov()
     End Sub
@@ -141,6 +160,7 @@ Public Class Form_main
 
         Label_days.Text = Label_days.Text - 20
 
+        checkDays()
         canAttack()
         sabotageByGov()
     End Sub

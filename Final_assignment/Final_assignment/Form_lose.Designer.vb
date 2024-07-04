@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form_attack_lose
+Partial Class Form_lose
     Inherits System.Windows.Forms.Form
 
     'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
@@ -28,7 +28,7 @@ Partial Class Form_attack_lose
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(337, 722)
+        Button_OK.Location = New Point(352, 759)
         Button_OK.Name = "Button_OK"
         Button_OK.Size = New Size(131, 40)
         Button_OK.TabIndex = 0
@@ -38,21 +38,21 @@ Partial Class Form_attack_lose
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(371, 322)
+        Label1.Location = New Point(385, 407)
         Label1.Name = "Label1"
         Label1.Size = New Size(53, 30)
         Label1.TabIndex = 1
         Label1.Text = "負け"
         ' 
-        ' Form_attack_lose
+        ' Form_lose
         ' 
         AutoScaleDimensions = New SizeF(12F, 30F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 806)
+        ClientSize = New Size(854, 892)
         Controls.Add(Label1)
         Controls.Add(Button_OK)
-        Name = "Form_attack_lose"
-        Text = "Form_attack_lose"
+        Name = "Form_lose"
+        Text = "Form_lose"
         ResumeLayout(False)
         PerformLayout()
     End Sub
