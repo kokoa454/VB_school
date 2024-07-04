@@ -1,16 +1,52 @@
 ﻿Imports System.Security.Cryptography
 
-Public Class Form1
+Public Class Form_main
 
     Private Sub Progressbar1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label_barBottom1.Text = 0
         Label_barBottom3.Text = 100
-        Label_days.Text = 365 * 4
+        Label_days.Text = 365 * 4 + 1
 
         ProgressBar1.Minimum = 0
         ProgressBar1.Maximum = 100
         ProgressBar1.Value = 0
 
+    End Sub
+
+    Private Sub sabotageByGov()
+        If (ProgressBar1.Value >= 65) Then
+            Dim num = RandomNumberGenerator.GetInt32(0, 9)
+
+            Select Case num    'do nothing when 3 to 9'
+                Case "0"
+                    ProgressBar1.Value = ProgressBar1.Value - 8
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "公安によって同志が逮捕" & vbCrLf & "他メンバーの士気が低下..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "1"
+
+                    ProgressBar1.Value = ProgressBar1.Value - 5
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "警察による家宅捜索" & vbCrLf & "サボタージュ用書類を持っていかれた..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "2"
+                    ProgressBar1.Value = ProgressBar1.Value - 10
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "スパイの潜入が発覚" & vbCrLf & "革命的データをすべて暗号化されてしまった..."
+                    form_sabotageByGov.ShowDialog()
+            End Select
+        End If
+    End Sub
+
+    Public Sub canAttack()
+        If (ProgressBar1.Value >= 90) Then
+            Button_attack.Visible = True
+        End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_demoMarch.Click
@@ -29,10 +65,8 @@ Public Class Form1
 
         Label_days.Text = Label_days.Text - 150
 
-        If (ProgressBar1.Value >= 10) Then
-            Button_attack.Visible = True
-        End If
-
+        canAttack()
+        sabotageByGov()
     End Sub
 
     Private Sub Button_youtube_Click(sender As Object, e As EventArgs) Handles Button_youtube.Click
@@ -51,10 +85,8 @@ Public Class Form1
 
         Label_days.Text = Label_days.Text - 30
 
-        If (ProgressBar1.Value >= 10) Then
-            Button_attack.Visible = True
-        End If
-
+        canAttack()
+        sabotageByGov()
     End Sub
 
     Private Sub Button_sabotage_Click(sender As Object, e As EventArgs) Handles Button_sabotage.Click
@@ -73,9 +105,8 @@ Public Class Form1
 
         Label_days.Text = Label_days.Text - 60
 
-        If (ProgressBar1.Value >= 10) Then
-            Button_attack.Visible = True
-        End If
+        canAttack()
+        sabotageByGov()
     End Sub
 
     Private Sub Button_education_Click(sender As Object, e As EventArgs) Handles Button_education.Click
@@ -94,9 +125,8 @@ Public Class Form1
 
         Label_days.Text = Label_days.Text - 30
 
-        If (ProgressBar1.Value >= 10) Then
-            Button_attack.Visible = True
-        End If
+        canAttack()
+        sabotageByGov()
     End Sub
 
     Private Sub Button_contact_Click(sender As Object, e As EventArgs) Handles Button_contact.Click
@@ -111,9 +141,8 @@ Public Class Form1
 
         Label_days.Text = Label_days.Text - 20
 
-        If (ProgressBar1.Value >= 10) Then
-            Button_attack.Visible = True
-        End If
+        canAttack()
+        sabotageByGov()
     End Sub
 
     Private Sub Button_attack_Click(sender As Object, e As EventArgs) Handles Button_attack.Click
@@ -121,10 +150,16 @@ Public Class Form1
         If num <= 50 Then
             ProgressBar1.Value = 0
             Label_result.Text = "アメリカ政府が介入！" & vbCrLf & "我々の敗北が確定した..."
+
+            Dim form_attack_lose As New Form_attack_lose
+            form_attack_lose.ShowDialog()
         Else
             ProgressBar1.Value = 100
             Label_barBottom1.Text = ProgressBar1.Value.ToString
             Label_result.Text = "政府を破壊！" & vbCrLf & "新革命政府を樹立。新しい日本の始まりだ..."
+
+            Dim form_attack_win As New Form_attack_win
+            form_attack_win.ShowDialog()
         End If
 
         Label_days.Text = 0

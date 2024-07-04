@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Form_main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -96,7 +96,7 @@ Partial Class Form1
         Label_barBottom1.Size = New Size(70, 30)
         Label_barBottom1.TabIndex = 5
         Label_barBottom1.Text = "0"
-        Label_barBottom1.TextAlign = ContentAlignment.MiddleRight
+        Label_barBottom1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label_barBottom2
         ' 
@@ -117,7 +117,7 @@ Partial Class Form1
         Label_barBottom3.Size = New Size(68, 30)
         Label_barBottom3.TabIndex = 7
         Label_barBottom3.Text = "0"
-        Label_barBottom3.TextAlign = ContentAlignment.MiddleRight
+        Label_barBottom3.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label_barTop
         ' 
@@ -142,7 +142,7 @@ Partial Class Form1
         ' Button_demoMarch
         ' 
         Button_demoMarch.Font = New Font("Segoe UI", 11F)
-        Button_demoMarch.Location = New Point(46, 493)
+        Button_demoMarch.Location = New Point(46, 542)
         Button_demoMarch.Name = "Button_demoMarch"
         Button_demoMarch.Size = New Size(246, 132)
         Button_demoMarch.TabIndex = 10
@@ -151,16 +151,17 @@ Partial Class Form1
         ' 
         ' Label_result
         ' 
+        Label_result.Font = New Font("Segoe UI", 13F)
         Label_result.Location = New Point(94, 367)
         Label_result.Name = "Label_result"
-        Label_result.Size = New Size(646, 89)
+        Label_result.Size = New Size(646, 158)
         Label_result.TabIndex = 11
         Label_result.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Button_youtube
         ' 
         Button_youtube.Font = New Font("Segoe UI", 11F)
-        Button_youtube.Location = New Point(298, 493)
+        Button_youtube.Location = New Point(298, 542)
         Button_youtube.Name = "Button_youtube"
         Button_youtube.Size = New Size(253, 132)
         Button_youtube.TabIndex = 12
@@ -170,7 +171,7 @@ Partial Class Form1
         ' Button_sabotage
         ' 
         Button_sabotage.Font = New Font("Segoe UI", 11F)
-        Button_sabotage.Location = New Point(557, 493)
+        Button_sabotage.Location = New Point(555, 542)
         Button_sabotage.Name = "Button_sabotage"
         Button_sabotage.Size = New Size(244, 132)
         Button_sabotage.TabIndex = 13
