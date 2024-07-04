@@ -17,6 +17,8 @@ Public Class Form_main
             Label_days.Text = 0
 
             Dim form_lose As New Form_lose
+            AddHandler form_lose.FormClosed, AddressOf closeForms
+
             form_lose.ShowDialog()
         End If
     End Sub
@@ -24,6 +26,8 @@ Public Class Form_main
     Private Sub checkWin()
         If (ProgressBar1.Value >= 100) Then
             Dim form_win As New Form_win
+            AddHandler form_win.FormClosed, AddressOf closeForms
+
             form_win.ShowDialog()
         End If
     End Sub
@@ -81,6 +85,7 @@ Public Class Form_main
         Label_days.Text = Label_days.Text - 150
 
         checkDays()
+        checkWin()
         canAttack()
         sabotageByGov()
     End Sub
@@ -102,6 +107,7 @@ Public Class Form_main
         Label_days.Text = Label_days.Text - 30
 
         checkDays()
+        checkWin()
         canAttack()
         sabotageByGov()
     End Sub
@@ -123,6 +129,7 @@ Public Class Form_main
         Label_days.Text = Label_days.Text - 60
 
         checkDays()
+        checkWin()
         canAttack()
         sabotageByGov()
     End Sub
@@ -144,6 +151,7 @@ Public Class Form_main
         Label_days.Text = Label_days.Text - 30
 
         checkDays()
+        checkWin()
         canAttack()
         sabotageByGov()
     End Sub
@@ -161,6 +169,7 @@ Public Class Form_main
         Label_days.Text = Label_days.Text - 20
 
         checkDays()
+        checkWin()
         canAttack()
         sabotageByGov()
     End Sub
@@ -172,6 +181,8 @@ Public Class Form_main
             Label_result.Text = "アメリカ政府が介入！" & vbCrLf & "我々の敗北が確定した..."
 
             Dim form_attack_lose As New Form_attack_lose
+            AddHandler form_attack_lose.FormClosed, AddressOf closeForms
+
             form_attack_lose.ShowDialog()
         Else
             ProgressBar1.Value = 100
@@ -179,10 +190,16 @@ Public Class Form_main
             Label_result.Text = "政府を破壊！" & vbCrLf & "新革命政府を樹立。新しい日本の始まりだ..."
 
             Dim form_attack_win As New Form_attack_win
+            AddHandler form_attack_win.FormClosed, AddressOf closeForms
+
             form_attack_win.ShowDialog()
         End If
 
         Label_days.Text = 0
+    End Sub
+
+    Private Sub closeForms(sender As Object, e As FormClosedEventArgs)
+        Application.Exit()
     End Sub
 
 End Class
