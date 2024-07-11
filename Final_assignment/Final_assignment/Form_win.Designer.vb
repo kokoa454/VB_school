@@ -28,9 +28,10 @@ Partial Class Form_win
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(327, 731)
+        Button_OK.Location = New Point(191, 366)
+        Button_OK.Margin = New Padding(2, 2, 2, 2)
         Button_OK.Name = "Button_OK"
-        Button_OK.Size = New Size(131, 40)
+        Button_OK.Size = New Size(76, 20)
         Button_OK.TabIndex = 0
         Button_OK.Text = "OK"
         Button_OK.UseVisualStyleBackColor = True
@@ -38,21 +39,23 @@ Partial Class Form_win
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(363, 388)
+        Label1.Location = New Point(212, 194)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(52, 30)
+        Label1.Size = New Size(30, 15)
         Label1.TabIndex = 1
         Label1.Text = "勝ち"
         ' 
         ' Form_win
         ' 
-        AutoScaleDimensions = New SizeF(12F, 30F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 857)
+        ClientSize = New Size(467, 428)
         Controls.Add(Label1)
         Controls.Add(Button_OK)
+        Margin = New Padding(2, 2, 2, 2)
         Name = "Form_win"
-        Text = "Form_win"
+        Text = "革命的市民団体シミュレーター"
         ResumeLayout(False)
         PerformLayout()
     End Sub

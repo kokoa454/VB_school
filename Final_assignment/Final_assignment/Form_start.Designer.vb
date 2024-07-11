@@ -71,6 +71,7 @@ Partial Class Form_start
         Margin = New Padding(2)
         Name = "Form_start"
         StartPosition = FormStartPosition.CenterScreen
+        Text = "革命的市民団体シミュレーター"
         ResumeLayout(False)
         PerformLayout()
     End Sub
