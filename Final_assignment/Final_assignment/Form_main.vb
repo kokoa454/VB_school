@@ -10,11 +10,13 @@ Public Class Form_main
         ProgressBar1.Maximum = 100
         ProgressBar1.Value = 0
 
+        Label_Fukuda.Text = "首相！" & vbCrLf & "市民団体が抗議してきましたぞ"
     End Sub
 
     Private Sub checkDays()
         If (Label_days.Text <= 0) Then
             Label_days.Text = 0
+            Label_Fukuda.Text = "首相！" & vbCr & "我々の勝利です！" & "革命なんてカスですな！"
 
             Dim form_lose As New Form_lose
             AddHandler form_lose.FormClosed, AddressOf closeForms
@@ -25,10 +27,28 @@ Public Class Form_main
 
     Private Sub checkWin()
         If (ProgressBar1.Value >= 100) Then
+            Label_Fukuda.Text = "首相..." & vbCr & "我々の敗北です......."
+
             Dim form_win As New Form_win
             AddHandler form_win.FormClosed, AddressOf closeForms
 
             form_win.ShowDialog()
+        End If
+    End Sub
+
+    Private Sub commentFukuda()
+        If (ProgressBar1.Value >= 80) Then
+            Label_Fukuda.Text = "ま...まずい" & vbCrLf & "あと少しで暴力革命を" & vbCrLf & "起こされてしまう"
+
+        ElseIf (ProgressBar1.Value >= 60) Then
+            Label_Fukuda.Text = "首相！" & vbCrLf & "我らも妨害工作を" & vbCrLf & "始めようとしましょう"
+
+        ElseIf (ProgressBar1.Value >= 40) Then
+            Label_Fukuda.Text = "経団連に頼めば" & vbCrLf & "組織票が手に入りますから安泰ですな"
+
+        ElseIf (ProgressBar1.Value >= 20) Then
+            Label_Fukuda.Text = "なかなか奴らも" & vbCrLf & "やりますな"
+
         End If
     End Sub
 
@@ -87,6 +107,7 @@ Public Class Form_main
         checkDays()
         checkWin()
         canAttack()
+        commentFukuda()
         sabotageByGov()
     End Sub
 
@@ -109,6 +130,7 @@ Public Class Form_main
         checkDays()
         checkWin()
         canAttack()
+        commentFukuda()
         sabotageByGov()
     End Sub
 
@@ -131,6 +153,7 @@ Public Class Form_main
         checkDays()
         checkWin()
         canAttack()
+        commentFukuda()
         sabotageByGov()
     End Sub
 
@@ -153,6 +176,7 @@ Public Class Form_main
         checkDays()
         checkWin()
         canAttack()
+        commentFukuda()
         sabotageByGov()
     End Sub
 
@@ -171,6 +195,7 @@ Public Class Form_main
         checkDays()
         checkWin()
         canAttack()
+        commentFukuda()
         sabotageByGov()
     End Sub
 
@@ -178,6 +203,7 @@ Public Class Form_main
         Dim num = RandomNumberGenerator.GetInt32(0, 100)
         If num <= 50 Then
             ProgressBar1.Value = 0
+            Label_Fukuda.Text = "首相！" & vbCrLf & "アメリカが助けに来てくれましたぞ！"
             Label_result.Text = "アメリカ政府が介入！" & vbCrLf & "我々の敗北が確定した..."
 
             Dim form_attack_lose As New Form_attack_lose
@@ -187,6 +213,7 @@ Public Class Form_main
         Else
             ProgressBar1.Value = 100
             Label_barBottom1.Text = ProgressBar1.Value.ToString
+            Label_Fukuda.Text = "首相..." & vbCrLf & "遂に革命を起こされてしまいましたぞ..."
             Label_result.Text = "政府を破壊！" & vbCrLf & "新革命政府を樹立。新しい日本の始まりだ..."
 
             Dim form_attack_win As New Form_attack_win

@@ -22,6 +22,7 @@ Partial Class Form_main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_main))
         Label_enemyName = New Label()
         Label_days = New Label()
         Label_text1 = New Label()
@@ -39,23 +40,33 @@ Partial Class Form_main
         Button_education = New Button()
         Button_contact = New Button()
         Button_attack = New Button()
+        PictureBox1 = New PictureBox()
+        PictureBox2 = New PictureBox()
+        PictureBox3 = New PictureBox()
+        Label_Fukuda = New Label()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label_enemyName
         ' 
         Label_enemyName.AutoSize = True
-        Label_enemyName.Location = New Point(82, 53)
+        Label_enemyName.Font = New Font("HGP明朝E", 14F, FontStyle.Bold)
+        Label_enemyName.Location = New Point(62, 4)
+        Label_enemyName.Margin = New Padding(2, 0, 2, 0)
         Label_enemyName.Name = "Label_enemyName"
-        Label_enemyName.Size = New Size(57, 30)
+        Label_enemyName.Size = New Size(129, 19)
         Label_enemyName.TabIndex = 0
-        Label_enemyName.Text = "政権"
+        Label_enemyName.Text = "第三次森内閣"
         ' 
         ' Label_days
         ' 
-        Label_days.Font = New Font("Segoe UI", 10F)
-        Label_days.Location = New Point(662, 52)
+        Label_days.Font = New Font("HGP明朝B", 12F)
+        Label_days.Location = New Point(473, 11)
+        Label_days.Margin = New Padding(2, 0, 2, 0)
         Label_days.Name = "Label_days"
-        Label_days.Size = New Size(72, 30)
+        Label_days.Size = New Size(42, 15)
         Label_days.TabIndex = 1
         Label_days.Text = "0"
         Label_days.TextAlign = ContentAlignment.MiddleRight
@@ -63,37 +74,41 @@ Partial Class Form_main
         ' Label_text1
         ' 
         Label_text1.AutoSize = True
-        Label_text1.Font = New Font("Segoe UI", 10F)
-        Label_text1.Location = New Point(551, 51)
+        Label_text1.Font = New Font("HGP明朝B", 12F)
+        Label_text1.Location = New Point(405, 9)
+        Label_text1.Margin = New Padding(2, 0, 2, 0)
         Label_text1.Name = "Label_text1"
-        Label_text1.Size = New Size(105, 32)
+        Label_text1.Size = New Size(64, 16)
         Label_text1.TabIndex = 2
         Label_text1.Text = "残り日数"
         ' 
         ' Label_text2
         ' 
         Label_text2.AutoSize = True
-        Label_text2.Font = New Font("Segoe UI", 10F)
-        Label_text2.Location = New Point(725, 53)
+        Label_text2.Font = New Font("HGP明朝B", 12F)
+        Label_text2.Location = New Point(519, 10)
+        Label_text2.Margin = New Padding(2, 0, 2, 0)
         Label_text2.Name = "Label_text2"
-        Label_text2.Size = New Size(39, 32)
+        Label_text2.Size = New Size(23, 16)
         Label_text2.TabIndex = 3
         Label_text2.Text = "日"
         ' 
         ' ProgressBar1
         ' 
         ProgressBar1.ForeColor = Color.Red
-        ProgressBar1.Location = New Point(46, 246)
+        ProgressBar1.Location = New Point(45, 212)
+        ProgressBar1.Margin = New Padding(2)
         ProgressBar1.Name = "ProgressBar1"
-        ProgressBar1.Size = New Size(739, 40)
+        ProgressBar1.Size = New Size(497, 20)
         ProgressBar1.TabIndex = 4
         ' 
         ' Label_barBottom1
         ' 
-        Label_barBottom1.Font = New Font("Segoe UI", 10F)
-        Label_barBottom1.Location = New Point(592, 316)
+        Label_barBottom1.Font = New Font("HGS明朝B", 12F)
+        Label_barBottom1.Location = New Point(420, 240)
+        Label_barBottom1.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom1.Name = "Label_barBottom1"
-        Label_barBottom1.Size = New Size(70, 30)
+        Label_barBottom1.Size = New Size(41, 15)
         Label_barBottom1.TabIndex = 5
         Label_barBottom1.Text = "0"
         Label_barBottom1.TextAlign = ContentAlignment.MiddleCenter
@@ -101,20 +116,22 @@ Partial Class Form_main
         ' Label_barBottom2
         ' 
         Label_barBottom2.AutoSize = True
-        Label_barBottom2.Font = New Font("Segoe UI", 10F)
-        Label_barBottom2.Location = New Point(662, 314)
+        Label_barBottom2.Font = New Font("HGS明朝B", 12F)
+        Label_barBottom2.Location = New Point(466, 240)
+        Label_barBottom2.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom2.Name = "Label_barBottom2"
-        Label_barBottom2.Size = New Size(23, 32)
+        Label_barBottom2.Size = New Size(15, 16)
         Label_barBottom2.TabIndex = 6
         Label_barBottom2.Text = "/"
         Label_barBottom2.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Label_barBottom3
         ' 
-        Label_barBottom3.Font = New Font("Segoe UI", 10F)
-        Label_barBottom3.Location = New Point(681, 316)
+        Label_barBottom3.Font = New Font("HGS明朝B", 12F)
+        Label_barBottom3.Location = New Point(484, 242)
+        Label_barBottom3.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom3.Name = "Label_barBottom3"
-        Label_barBottom3.Size = New Size(68, 30)
+        Label_barBottom3.Size = New Size(40, 15)
         Label_barBottom3.TabIndex = 7
         Label_barBottom3.Text = "0"
         Label_barBottom3.TextAlign = ContentAlignment.MiddleCenter
@@ -123,77 +140,86 @@ Partial Class Form_main
         ' 
         Label_barTop.AutoSize = True
         Label_barTop.BackColor = SystemColors.Control
-        Label_barTop.Location = New Point(46, 198)
+        Label_barTop.Font = New Font("HG明朝B", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(128))
+        Label_barTop.Location = New Point(27, 195)
+        Label_barTop.Margin = New Padding(2, 0, 2, 0)
         Label_barTop.Name = "Label_barTop"
-        Label_barTop.Size = New Size(128, 30)
+        Label_barTop.Size = New Size(77, 12)
         Label_barTop.TabIndex = 8
         Label_barTop.Text = "退陣まで残り"
         ' 
         ' Label_barBottom4
         ' 
         Label_barBottom4.AutoSize = True
-        Label_barBottom4.Font = New Font("Segoe UI", 10F)
-        Label_barBottom4.Location = New Point(755, 316)
+        Label_barBottom4.Font = New Font("HGS明朝B", 12F)
+        Label_barBottom4.Location = New Point(527, 242)
+        Label_barBottom4.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom4.Name = "Label_barBottom4"
-        Label_barBottom4.Size = New Size(34, 32)
+        Label_barBottom4.Size = New Size(15, 16)
         Label_barBottom4.TabIndex = 9
         Label_barBottom4.Text = "%"
         ' 
         ' Button_demoMarch
         ' 
-        Button_demoMarch.Font = New Font("Segoe UI", 11F)
-        Button_demoMarch.Location = New Point(46, 542)
+        Button_demoMarch.Font = New Font("HGP明朝B", 13F)
+        Button_demoMarch.Location = New Point(27, 360)
+        Button_demoMarch.Margin = New Padding(2)
         Button_demoMarch.Name = "Button_demoMarch"
-        Button_demoMarch.Size = New Size(246, 132)
+        Button_demoMarch.Size = New Size(144, 66)
         Button_demoMarch.TabIndex = 10
         Button_demoMarch.Text = "国会前で" & vbCrLf & "デモ集会を敢行"
         Button_demoMarch.UseVisualStyleBackColor = True
         ' 
         ' Label_result
         ' 
-        Label_result.Font = New Font("Segoe UI", 13F)
-        Label_result.Location = New Point(94, 367)
+        Label_result.Font = New Font("HGP明朝B", 12.8571434F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
+        Label_result.Location = New Point(62, 268)
+        Label_result.Margin = New Padding(2, 0, 2, 0)
         Label_result.Name = "Label_result"
-        Label_result.Size = New Size(646, 158)
+        Label_result.Size = New Size(451, 79)
         Label_result.TabIndex = 11
         Label_result.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Button_youtube
         ' 
-        Button_youtube.Font = New Font("Segoe UI", 11F)
-        Button_youtube.Location = New Point(298, 542)
+        Button_youtube.Font = New Font("HGP明朝B", 13F)
+        Button_youtube.Location = New Point(211, 360)
+        Button_youtube.Margin = New Padding(2)
         Button_youtube.Name = "Button_youtube"
-        Button_youtube.Size = New Size(253, 132)
+        Button_youtube.Size = New Size(148, 66)
         Button_youtube.TabIndex = 12
         Button_youtube.Text = "Youtubeで" & vbCrLf & "闘争を生放送"
         Button_youtube.UseVisualStyleBackColor = True
         ' 
         ' Button_sabotage
         ' 
-        Button_sabotage.Font = New Font("Segoe UI", 11F)
-        Button_sabotage.Location = New Point(555, 542)
+        Button_sabotage.Font = New Font("HGP明朝B", 12F)
+        Button_sabotage.Location = New Point(400, 360)
+        Button_sabotage.Margin = New Padding(2)
         Button_sabotage.Name = "Button_sabotage"
-        Button_sabotage.Size = New Size(244, 132)
+        Button_sabotage.Size = New Size(142, 66)
         Button_sabotage.TabIndex = 13
         Button_sabotage.Text = "政府との癒着企業" & vbCrLf & "にサボタージュ"
         Button_sabotage.UseVisualStyleBackColor = True
         ' 
         ' Button_education
         ' 
-        Button_education.Font = New Font("Segoe UI", 11F)
-        Button_education.Location = New Point(46, 692)
+        Button_education.Font = New Font("HGP明朝B", 11F)
+        Button_education.Location = New Point(27, 449)
+        Button_education.Margin = New Padding(2)
         Button_education.Name = "Button_education"
-        Button_education.Size = New Size(246, 132)
+        Button_education.Size = New Size(144, 66)
         Button_education.TabIndex = 14
         Button_education.Text = "大学でメンバー勧誘" & vbCrLf & "思想教育セミナー" & vbCrLf & "を開催"
         Button_education.UseVisualStyleBackColor = True
         ' 
         ' Button_contact
         ' 
-        Button_contact.Font = New Font("Segoe UI", 11F)
-        Button_contact.Location = New Point(298, 692)
+        Button_contact.Font = New Font("HGP明朝B", 13F)
+        Button_contact.Location = New Point(211, 450)
+        Button_contact.Margin = New Padding(2)
         Button_contact.Name = "Button_contact"
-        Button_contact.Size = New Size(253, 132)
+        Button_contact.Size = New Size(148, 66)
         Button_contact.TabIndex = 15
         Button_contact.Text = "他国の同志と" & vbCrLf & "お互いの活動を共有"
         Button_contact.UseVisualStyleBackColor = True
@@ -201,21 +227,67 @@ Partial Class Form_main
         ' Button_attack
         ' 
         Button_attack.BackColor = Color.Red
-        Button_attack.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button_attack.Font = New Font("HGP明朝B", 13F)
         Button_attack.ForeColor = Color.Yellow
-        Button_attack.Location = New Point(555, 692)
+        Button_attack.Location = New Point(398, 450)
+        Button_attack.Margin = New Padding(2)
         Button_attack.Name = "Button_attack"
-        Button_attack.Size = New Size(246, 132)
+        Button_attack.Size = New Size(144, 66)
         Button_attack.TabIndex = 16
         Button_attack.Text = "政府部に全員で" & vbCrLf & "武装攻撃" & vbCrLf & "（最終手段）"
         Button_attack.UseVisualStyleBackColor = False
         Button_attack.Visible = False
         ' 
-        ' Form1
+        ' PictureBox1
         ' 
-        AutoScaleDimensions = New SizeF(12F, 30F)
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(50, 28)
+        PictureBox1.Margin = New Padding(2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(151, 151)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 17
+        PictureBox1.TabStop = False
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(436, 69)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(122, 110)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 18
+        PictureBox2.TabStop = False
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
+        PictureBox3.Location = New Point(232, 28)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(198, 179)
+        PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox3.TabIndex = 19
+        PictureBox3.TabStop = False
+        ' 
+        ' Label_Fukuda
+        ' 
+        Label_Fukuda.Font = New Font("Segoe UI", 10F)
+        Label_Fukuda.Location = New Point(270, 69)
+        Label_Fukuda.Name = "Label_Fukuda"
+        Label_Fukuda.Size = New Size(123, 95)
+        Label_Fukuda.TabIndex = 20
+        Label_Fukuda.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Form_main
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(824, 927)
+        AutoSize = True
+        ClientSize = New Size(570, 550)
+        Controls.Add(Label_Fukuda)
+        Controls.Add(PictureBox3)
+        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox1)
         Controls.Add(Button_attack)
         Controls.Add(Button_contact)
         Controls.Add(Button_education)
@@ -233,8 +305,13 @@ Partial Class Form_main
         Controls.Add(Label_text1)
         Controls.Add(Label_days)
         Controls.Add(Label_enemyName)
-        Name = "Form1"
-        Text = "Form1"
+        Margin = New Padding(2)
+        Name = "Form_main"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "革命的市民団体シミュレーター"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -256,5 +333,9 @@ Partial Class Form_main
     Friend WithEvents Button_education As Button
     Friend WithEvents Button_contact As Button
     Friend WithEvents Button_attack As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Label_Fukuda As Label
 
 End Class

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|c:\\users\\qqnq7\\documents\\programming\\vb_school\\final_assignment\\final_assignment\\form_start.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_start.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|c:\\users\\qqnq7\\documents\\programming\\vb_school\\final_assignment\\final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|c:\\users\\qqnq7\\documents\\programming\\vb_school\\final_assignment\\final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form_start.vb",
-              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_start.vb",
-              "RelativeDocumentMoniker": "Final_assignment\\Form_start.vb",
-              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_start.vb",
-              "RelativeToolTip": "Final_assignment\\Form_start.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-04T02:29:16.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form_main.vb",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
               "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeToolTip": "Final_assignment\\Form_main.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-27T00:56:34.628Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_main.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "Final_assignment\\Form_main.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-11T00:30:07.788Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
             }
           ]
         }

@@ -30,41 +30,47 @@ Partial Class Form_start
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 20F)
-        Label1.Location = New Point(213, 120)
+        Label1.Font = New Font("HGS明朝E", 22F, FontStyle.Bold)
+        Label1.Location = New Point(11, 45)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(398, 62)
+        Label1.Size = New Size(478, 90)
         Label1.TabIndex = 0
-        Label1.Text = "ようこそ　◯◯◯へ"
+        Label1.Text = "ようこそ" & vbCrLf & vbCrLf & "革命的市民団体シミュレーターへ"
+        Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Button_start
         ' 
         Button_start.ImageAlign = ContentAlignment.MiddleRight
-        Button_start.Location = New Point(173, 278)
+        Button_start.Location = New Point(92, 187)
+        Button_start.Margin = New Padding(2)
         Button_start.Name = "Button_start"
-        Button_start.Size = New Size(131, 40)
+        Button_start.Size = New Size(76, 20)
         Button_start.TabIndex = 1
         Button_start.Text = "START"
         Button_start.UseVisualStyleBackColor = True
         ' 
         ' Button_close
         ' 
-        Button_close.Location = New Point(489, 278)
+        Button_close.Location = New Point(326, 187)
+        Button_close.Margin = New Padding(2)
         Button_close.Name = "Button_close"
-        Button_close.Size = New Size(131, 40)
+        Button_close.Size = New Size(76, 20)
         Button_close.TabIndex = 2
         Button_close.Text = "CLOSE"
         Button_close.UseVisualStyleBackColor = True
         ' 
         ' Form_start
         ' 
-        AutoScaleDimensions = New SizeF(12F, 30F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(504, 237)
         Controls.Add(Button_close)
         Controls.Add(Button_start)
         Controls.Add(Label1)
+        Margin = New Padding(2)
         Name = "Form_start"
+        StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
         PerformLayout()
     End Sub
