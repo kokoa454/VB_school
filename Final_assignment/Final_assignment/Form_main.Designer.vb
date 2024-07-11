@@ -44,9 +44,12 @@ Partial Class Form_main
         PictureBox2 = New PictureBox()
         PictureBox3 = New PictureBox()
         Label_Fukuda = New Label()
+        PictureBox4 = New PictureBox()
+        Label_Mori = New Label()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label_enemyName
@@ -96,7 +99,7 @@ Partial Class Form_main
         ' ProgressBar1
         ' 
         ProgressBar1.ForeColor = Color.Red
-        ProgressBar1.Location = New Point(45, 212)
+        ProgressBar1.Location = New Point(52, 366)
         ProgressBar1.Margin = New Padding(2)
         ProgressBar1.Name = "ProgressBar1"
         ProgressBar1.Size = New Size(497, 20)
@@ -105,7 +108,7 @@ Partial Class Form_main
         ' Label_barBottom1
         ' 
         Label_barBottom1.Font = New Font("HGS明朝B", 12F)
-        Label_barBottom1.Location = New Point(420, 240)
+        Label_barBottom1.Location = New Point(428, 402)
         Label_barBottom1.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom1.Name = "Label_barBottom1"
         Label_barBottom1.Size = New Size(41, 15)
@@ -117,7 +120,7 @@ Partial Class Form_main
         ' 
         Label_barBottom2.AutoSize = True
         Label_barBottom2.Font = New Font("HGS明朝B", 12F)
-        Label_barBottom2.Location = New Point(466, 240)
+        Label_barBottom2.Location = New Point(473, 402)
         Label_barBottom2.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom2.Name = "Label_barBottom2"
         Label_barBottom2.Size = New Size(15, 16)
@@ -128,7 +131,7 @@ Partial Class Form_main
         ' Label_barBottom3
         ' 
         Label_barBottom3.Font = New Font("HGS明朝B", 12F)
-        Label_barBottom3.Location = New Point(484, 242)
+        Label_barBottom3.Location = New Point(492, 402)
         Label_barBottom3.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom3.Name = "Label_barBottom3"
         Label_barBottom3.Size = New Size(40, 15)
@@ -141,7 +144,7 @@ Partial Class Form_main
         Label_barTop.AutoSize = True
         Label_barTop.BackColor = SystemColors.Control
         Label_barTop.Font = New Font("HG明朝B", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(128))
-        Label_barTop.Location = New Point(27, 195)
+        Label_barTop.Location = New Point(45, 338)
         Label_barTop.Margin = New Padding(2, 0, 2, 0)
         Label_barTop.Name = "Label_barTop"
         Label_barTop.Size = New Size(77, 12)
@@ -152,7 +155,7 @@ Partial Class Form_main
         ' 
         Label_barBottom4.AutoSize = True
         Label_barBottom4.Font = New Font("HGS明朝B", 12F)
-        Label_barBottom4.Location = New Point(527, 242)
+        Label_barBottom4.Location = New Point(534, 401)
         Label_barBottom4.Margin = New Padding(2, 0, 2, 0)
         Label_barBottom4.Name = "Label_barBottom4"
         Label_barBottom4.Size = New Size(15, 16)
@@ -162,7 +165,7 @@ Partial Class Form_main
         ' Button_demoMarch
         ' 
         Button_demoMarch.Font = New Font("HGP明朝B", 13F)
-        Button_demoMarch.Location = New Point(27, 360)
+        Button_demoMarch.Location = New Point(45, 527)
         Button_demoMarch.Margin = New Padding(2)
         Button_demoMarch.Name = "Button_demoMarch"
         Button_demoMarch.Size = New Size(144, 66)
@@ -172,18 +175,19 @@ Partial Class Form_main
         ' 
         ' Label_result
         ' 
+        Label_result.BorderStyle = BorderStyle.Fixed3D
         Label_result.Font = New Font("HGP明朝B", 12.8571434F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
-        Label_result.Location = New Point(62, 268)
+        Label_result.Location = New Point(45, 435)
         Label_result.Margin = New Padding(2, 0, 2, 0)
         Label_result.Name = "Label_result"
-        Label_result.Size = New Size(451, 79)
+        Label_result.Size = New Size(497, 79)
         Label_result.TabIndex = 11
         Label_result.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Button_youtube
         ' 
         Button_youtube.Font = New Font("HGP明朝B", 13F)
-        Button_youtube.Location = New Point(211, 360)
+        Button_youtube.Location = New Point(211, 527)
         Button_youtube.Margin = New Padding(2)
         Button_youtube.Name = "Button_youtube"
         Button_youtube.Size = New Size(148, 66)
@@ -194,7 +198,7 @@ Partial Class Form_main
         ' Button_sabotage
         ' 
         Button_sabotage.Font = New Font("HGP明朝B", 12F)
-        Button_sabotage.Location = New Point(400, 360)
+        Button_sabotage.Location = New Point(400, 528)
         Button_sabotage.Margin = New Padding(2)
         Button_sabotage.Name = "Button_sabotage"
         Button_sabotage.Size = New Size(142, 66)
@@ -205,7 +209,7 @@ Partial Class Form_main
         ' Button_education
         ' 
         Button_education.Font = New Font("HGP明朝B", 11F)
-        Button_education.Location = New Point(27, 449)
+        Button_education.Location = New Point(45, 608)
         Button_education.Margin = New Padding(2)
         Button_education.Name = "Button_education"
         Button_education.Size = New Size(144, 66)
@@ -216,7 +220,7 @@ Partial Class Form_main
         ' Button_contact
         ' 
         Button_contact.Font = New Font("HGP明朝B", 13F)
-        Button_contact.Location = New Point(211, 450)
+        Button_contact.Location = New Point(211, 607)
         Button_contact.Margin = New Padding(2)
         Button_contact.Name = "Button_contact"
         Button_contact.Size = New Size(148, 66)
@@ -229,7 +233,7 @@ Partial Class Form_main
         Button_attack.BackColor = Color.Red
         Button_attack.Font = New Font("HGP明朝B", 13F)
         Button_attack.ForeColor = Color.Yellow
-        Button_attack.Location = New Point(398, 450)
+        Button_attack.Location = New Point(398, 608)
         Button_attack.Margin = New Padding(2)
         Button_attack.Name = "Button_attack"
         Button_attack.Size = New Size(144, 66)
@@ -278,12 +282,32 @@ Partial Class Form_main
         Label_Fukuda.TabIndex = 20
         Label_Fukuda.TextAlign = ContentAlignment.MiddleCenter
         ' 
+        ' PictureBox4
+        ' 
+        PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
+        PictureBox4.Location = New Point(45, 213)
+        PictureBox4.Name = "PictureBox4"
+        PictureBox4.Size = New Size(497, 94)
+        PictureBox4.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox4.TabIndex = 21
+        PictureBox4.TabStop = False
+        ' 
+        ' Label_Mori
+        ' 
+        Label_Mori.Font = New Font("HG明朝B", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
+        Label_Mori.Location = New Point(133, 226)
+        Label_Mori.Name = "Label_Mori"
+        Label_Mori.Size = New Size(336, 55)
+        Label_Mori.TabIndex = 22
+        ' 
         ' Form_main
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
-        ClientSize = New Size(570, 550)
+        ClientSize = New Size(570, 701)
+        Controls.Add(Label_Mori)
+        Controls.Add(PictureBox4)
         Controls.Add(Label_Fukuda)
         Controls.Add(PictureBox3)
         Controls.Add(PictureBox2)
@@ -312,6 +336,7 @@ Partial Class Form_main
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -337,5 +362,7 @@ Partial Class Form_main
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label_Fukuda As Label
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label_Mori As Label
 
 End Class

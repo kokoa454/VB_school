@@ -38,25 +38,83 @@ Public Class Form_main
 
     Private Sub commentFukuda()
         If (ProgressBar1.Value >= 80) Then
-            Label_Fukuda.Text = "ま...まずい" & vbCrLf & "あと少しで暴力革命を" & vbCrLf & "起こされてしまう"
+            Label_Fukuda.Text = "ま...まずい" & vbCrLf & "あと少しで暴力革命を起こされてしまう"
 
         ElseIf (ProgressBar1.Value >= 60) Then
-            Label_Fukuda.Text = "首相！" & vbCrLf & "我らも妨害工作を" & vbCrLf & "始めようとしましょう"
+            Label_Fukuda.Text = "首相！" & vbCrLf & "我らも妨害工作を始めようとしましょう"
 
         ElseIf (ProgressBar1.Value >= 40) Then
-            Label_Fukuda.Text = "経団連に頼めば" & vbCrLf & "組織票が手に入りますから安泰ですな"
+            Label_Fukuda.Text = "経団連に頼めば組織票が手に入りますから安泰ですな"
 
         ElseIf (ProgressBar1.Value >= 20) Then
-            Label_Fukuda.Text = "なかなか奴らも" & vbCrLf & "やりますな"
+            Label_Fukuda.Text = "なかなか奴らもやりますな"
 
         End If
+    End Sub
+
+    Private Sub commentMori()
+        Dim num = RandomNumberGenerator.GetInt32(0, 27)
+        Label_Mori.ForeColor = Color.Red
+
+        Select Case num    'do nothing if 9 to 27'
+            Case "0"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「関心がない、といって寝てしまってくれれば、それでいいんですけれども」 at 衆議院"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "1"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「子どもを一人もつくらない女性の面倒を、税金でみなさいというのはおかしい」"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "2"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「見事にひっくり返った。あの子、大事なときには必ず転ぶ」 at オリンピック講演"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "3"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「国家も歌えないような選手は日本の選手ではない」 at スポーツ大会開会式"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "4"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「女性が入っている理事会は時間がかかる」"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "5"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「言葉は悪いが、大阪はたんつぼだ」"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "6"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「イット革命だ！あ、アイティーか」"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "7"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「日本の国、まさに天皇を中心としている神の国」"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+            Case "8"
+                Label_Mori.Text = "森首相による失言！" & vbCrLf & "「私が官邸に行かないことで、何が遅れたのか」 at 事故会見"
+                Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
+                ProgressBar1.Value = ProgressBar1.Value + 5
+
+        End Select
+    End Sub
+
+    Private Sub refreshComments()
+        Label_Mori.Text = ""
+        Label_Fukuda.Text = ""
     End Sub
 
     Private Sub sabotageByGov()
         If (ProgressBar1.Value >= 65) Then
             Dim num = RandomNumberGenerator.GetInt32(0, 9)
 
-            Select Case num    'do nothing when 3 to 9'
+            Select Case num    'do nothing if 3 to 9'
                 Case "0"
                     ProgressBar1.Value = ProgressBar1.Value - 8
 
@@ -89,6 +147,8 @@ Public Class Form_main
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_demoMarch.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 20)
         If num = 0 Or num <= 10 Then
             If (ProgressBar1.Value > 15) Then
@@ -108,10 +168,13 @@ Public Class Form_main
         checkWin()
         canAttack()
         commentFukuda()
+        commentMori()
         sabotageByGov()
     End Sub
 
     Private Sub Button_youtube_Click(sender As Object, e As EventArgs) Handles Button_youtube.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 6)
         If num = 0 Or num <= 2 Then
             If (ProgressBar1.Value > 2) Then
@@ -131,10 +194,13 @@ Public Class Form_main
         checkWin()
         canAttack()
         commentFukuda()
+        commentMori()
         sabotageByGov()
     End Sub
 
     Private Sub Button_sabotage_Click(sender As Object, e As EventArgs) Handles Button_sabotage.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 10)
         If num = 0 Or num <= 3 Then
             If (ProgressBar1.Value > 3) Then
@@ -158,6 +224,8 @@ Public Class Form_main
     End Sub
 
     Private Sub Button_education_Click(sender As Object, e As EventArgs) Handles Button_education.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 8)
         If num = 0 Or num = 1 Then
             If (ProgressBar1.Value > 2) Then
@@ -177,10 +245,13 @@ Public Class Form_main
         checkWin()
         canAttack()
         commentFukuda()
+        commentMori()
         sabotageByGov()
     End Sub
 
     Private Sub Button_contact_Click(sender As Object, e As EventArgs) Handles Button_contact.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 5)
         If num = 0 Or num = 1 Then
             Label_result.Text = "通信中に突然の停電、連絡不可能に..." & vbCrLf & "政権が退陣するまで" & 100 - ProgressBar1.Value & "%"
@@ -196,10 +267,13 @@ Public Class Form_main
         checkWin()
         canAttack()
         commentFukuda()
+        commentMori()
         sabotageByGov()
     End Sub
 
     Private Sub Button_attack_Click(sender As Object, e As EventArgs) Handles Button_attack.Click
+        refreshComments()
+
         Dim num = RandomNumberGenerator.GetInt32(0, 100)
         If num <= 50 Then
             ProgressBar1.Value = 0
