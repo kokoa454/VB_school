@@ -55,6 +55,7 @@ Partial Class Form_lose
         Controls.Add(Button_OK)
         Margin = New Padding(2)
         Name = "Form_lose"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "革命的市民団体シミュレーター"
         ResumeLayout(False)
         PerformLayout()

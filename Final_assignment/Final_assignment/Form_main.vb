@@ -4,7 +4,7 @@ Public Class Form_main
     Private Sub Progressbar1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label_barBottom1.Text = 0
         Label_barBottom3.Text = 100
-        Label_days.Text = 10000
+        Label_days.Text = 365 * 4 + 1
 
         ProgressBar1.Minimum = 0
         ProgressBar1.Maximum = 100
@@ -26,7 +26,7 @@ Public Class Form_main
 
     Private Sub checkDays()
         If (Label_days.Text <= 0) Then
-            Label_days.Text = 0
+            Label_days.Text = "0"
             Label_Fukuda.Text = "首相！" & vbCr & "我々の勝利です！" & "革命なんてカスですな！"
             Label_Mori.Text = "日本は神の国、暴力で政権を取ろうなどと馬鹿なことは考えるべきではなかったな！"
 
@@ -64,10 +64,10 @@ Public Class Form_main
     End Sub
 
     Private Sub commentMori()
-        Dim num = RandomNumberGenerator.GetInt32(0, 32)
+        Dim num = RandomNumberGenerator.GetInt32(0, 36)
         Label_Mori.ForeColor = Color.Red
 
-        Select Case num    'do nothing if 9 to 32'
+        Select Case num    'do nothing if 9 to 36'
             Case "0"
                 Label_Mori.Text = "森首相による失言！" & vbCrLf & "「関心がない、といって寝てしまってくれれば、それでいいんですけれども」 at 衆議院"
                 Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
@@ -123,11 +123,13 @@ Public Class Form_main
 
     Private Sub sabotageByGov()
         If (ProgressBar1.Value >= 65) Then
-            Dim num = RandomNumberGenerator.GetInt32(0, 9)
+            Dim num = RandomNumberGenerator.GetInt32(0, 45)
 
-            Select Case num    'do nothing if 3 to 9'
+            Select Case num    'do nothing if 9 to 45'
                 Case "0"
                     updateProgressBar(-8)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
 
                     Dim form_sabotageByGov As New Form_sabotageByGov
                     form_sabotageByGov.text_form_sabotageByGov = "公安によって同志が逮捕" & vbCrLf & "他メンバーの士気が低下..."
@@ -136,6 +138,8 @@ Public Class Form_main
                 Case "1"
                     updateProgressBar(-8)
 
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
                     Dim form_sabotageByGov As New Form_sabotageByGov
                     form_sabotageByGov.text_form_sabotageByGov = "警察による家宅捜索" & vbCrLf & "サボタージュ用書類を持っていかれた..."
                     form_sabotageByGov.ShowDialog()
@@ -143,8 +147,64 @@ Public Class Form_main
                 Case "2"
                     updateProgressBar(-10)
 
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
                     Dim form_sabotageByGov As New Form_sabotageByGov
                     form_sabotageByGov.text_form_sabotageByGov = "スパイの潜入が発覚" & vbCrLf & "革命的データをすべて暗号化されてしまった..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "3"
+                    updateProgressBar(-6)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "政府がインターネットの監視強化" & vbCrLf & "革命活動が露見しやすくなった..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "4"
+                    updateProgressBar(-7)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "メディアが我々の活動を強く批判" & vbCrLf & "我々に対する国民の目が厳しくなった..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "5"
+                    updateProgressBar(-10)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "政府によるフェイクニュース" & vbCrLf & "我々の信用を失墜させられた..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "6"
+                    updateProgressBar(-8)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "同志が裏切り、政府に寝返った" & vbCrLf & "情報の流出が止まらない..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "7"
+                    updateProgressBar(-9)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "外国勢力による介入." & vbCrLf & "我々の活動に多数の妨害工作が発見された..."
+                    form_sabotageByGov.ShowDialog()
+
+                Case "8"
+                    updateProgressBar(-10)
+
+                    Label_barBottom1.Text = ProgressBar1.Value.ToString
+
+                    Dim form_sabotageByGov As New Form_sabotageByGov
+                    form_sabotageByGov.text_form_sabotageByGov = "重要拠点の陥落" & vbCrLf & "多くの資料が焼却されてしまった..."
                     form_sabotageByGov.ShowDialog()
             End Select
         End If
@@ -153,6 +213,8 @@ Public Class Form_main
     Public Sub canAttack()
         If (ProgressBar1.Value >= 90) Then
             Button_attack.Visible = True
+        Else
+            Button_attack.Visible = False
         End If
     End Sub
 
@@ -174,7 +236,7 @@ Public Class Form_main
             Label_result.Text = "我々の言葉が国民の心に響いた！" & vbCrLf & "政権が退陣するまで" & 100 - ProgressBar1.Value & "%"
         End If
 
-        Label_days.Text = Label_days.Text - 150
+        Label_days.Text = Label_days.Text - 120
 
         checkDays()
 
@@ -293,6 +355,9 @@ Public Class Form_main
 
         Dim num = RandomNumberGenerator.GetInt32(0, 5)
         If num = 0 Or num = 1 Then
+            updateProgressBar(-3)
+
+            Label_barBottom1.Text = ProgressBar1.Value.ToString
             Label_result.Text = "通信中に突然の停電、連絡不可能に..." & vbCrLf & "政権が退陣するまで" & 100 - ProgressBar1.Value & "%"
         Else
             updateProgressBar(num)
