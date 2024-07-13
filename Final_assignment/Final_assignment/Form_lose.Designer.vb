@@ -28,8 +28,8 @@ Partial Class Form_lose
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(205, 380)
-        Button_OK.Margin = New Padding(2, 2, 2, 2)
+        Button_OK.Location = New Point(200, 400)
+        Button_OK.Margin = New Padding(2)
         Button_OK.Name = "Button_OK"
         Button_OK.Size = New Size(76, 20)
         Button_OK.TabIndex = 0
@@ -50,10 +50,10 @@ Partial Class Form_lose
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(498, 446)
+        ClientSize = New Size(484, 461)
         Controls.Add(Label1)
         Controls.Add(Button_OK)
-        Margin = New Padding(2, 2, 2, 2)
+        Margin = New Padding(2)
         Name = "Form_lose"
         Text = "革命的市民団体シミュレーター"
         ResumeLayout(False)

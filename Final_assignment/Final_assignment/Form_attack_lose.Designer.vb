@@ -28,8 +28,8 @@ Partial Class Form_attack_lose
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(197, 361)
-        Button_OK.Margin = New Padding(2, 2, 2, 2)
+        Button_OK.Location = New Point(200, 400)
+        Button_OK.Margin = New Padding(2)
         Button_OK.Name = "Button_OK"
         Button_OK.Size = New Size(76, 20)
         Button_OK.TabIndex = 0
@@ -39,7 +39,7 @@ Partial Class Form_attack_lose
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(216, 161)
+        Label1.Location = New Point(221, 166)
         Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(31, 15)
@@ -50,10 +50,10 @@ Partial Class Form_attack_lose
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(467, 403)
+        ClientSize = New Size(484, 461)
         Controls.Add(Label1)
         Controls.Add(Button_OK)
-        Margin = New Padding(2, 2, 2, 2)
+        Margin = New Padding(2)
         Name = "Form_attack_lose"
         Text = "革命的市民団体シミュレーター"
         ResumeLayout(False)
