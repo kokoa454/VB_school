@@ -55,11 +55,11 @@ Partial Class Form_main
         ' Label_enemyName
         ' 
         Label_enemyName.AutoSize = True
-        Label_enemyName.Font = New Font("HGPMinchoE", 14F, FontStyle.Bold)
+        Label_enemyName.Font = New Font("HGPMinchoB", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
         Label_enemyName.Location = New Point(62, 4)
         Label_enemyName.Margin = New Padding(2, 0, 2, 0)
         Label_enemyName.Name = "Label_enemyName"
-        Label_enemyName.Size = New Size(129, 19)
+        Label_enemyName.Size = New Size(123, 19)
         Label_enemyName.TabIndex = 0
         Label_enemyName.Text = "第三次森内閣"
         ' 
@@ -165,7 +165,7 @@ Partial Class Form_main
         ' Button_demoMarch
         ' 
         Button_demoMarch.Font = New Font("HGPMinchoB", 13F)
-        Button_demoMarch.Location = New Point(31, 527)
+        Button_demoMarch.Location = New Point(31, 565)
         Button_demoMarch.Margin = New Padding(2)
         Button_demoMarch.Name = "Button_demoMarch"
         Button_demoMarch.Size = New Size(144, 66)
@@ -177,7 +177,7 @@ Partial Class Form_main
         ' 
         Label_result.BorderStyle = BorderStyle.Fixed3D
         Label_result.Font = New Font("HGPMinchoB", 12.8571434F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
-        Label_result.Location = New Point(31, 435)
+        Label_result.Location = New Point(31, 472)
         Label_result.Margin = New Padding(2, 0, 2, 0)
         Label_result.Name = "Label_result"
         Label_result.Size = New Size(511, 79)
@@ -187,7 +187,7 @@ Partial Class Form_main
         ' Button_youtube
         ' 
         Button_youtube.Font = New Font("HGPMinchoB", 13F)
-        Button_youtube.Location = New Point(208, 527)
+        Button_youtube.Location = New Point(217, 565)
         Button_youtube.Margin = New Padding(2)
         Button_youtube.Name = "Button_youtube"
         Button_youtube.Size = New Size(148, 66)
@@ -198,7 +198,7 @@ Partial Class Form_main
         ' Button_sabotage
         ' 
         Button_sabotage.Font = New Font("HGPMinchoB", 12F)
-        Button_sabotage.Location = New Point(400, 528)
+        Button_sabotage.Location = New Point(400, 565)
         Button_sabotage.Margin = New Padding(2)
         Button_sabotage.Name = "Button_sabotage"
         Button_sabotage.Size = New Size(142, 66)
@@ -209,7 +209,7 @@ Partial Class Form_main
         ' Button_education
         ' 
         Button_education.Font = New Font("HGPMinchoB", 11F)
-        Button_education.Location = New Point(31, 609)
+        Button_education.Location = New Point(31, 659)
         Button_education.Margin = New Padding(2)
         Button_education.Name = "Button_education"
         Button_education.Size = New Size(144, 66)
@@ -220,7 +220,7 @@ Partial Class Form_main
         ' Button_contact
         ' 
         Button_contact.Font = New Font("HGPMinchoB", 13F)
-        Button_contact.Location = New Point(208, 609)
+        Button_contact.Location = New Point(208, 659)
         Button_contact.Margin = New Padding(2)
         Button_contact.Name = "Button_contact"
         Button_contact.Size = New Size(148, 66)
@@ -233,7 +233,7 @@ Partial Class Form_main
         Button_attack.BackColor = Color.Red
         Button_attack.Font = New Font("HGPMinchoB", 13F)
         Button_attack.ForeColor = Color.Yellow
-        Button_attack.Location = New Point(398, 608)
+        Button_attack.Location = New Point(398, 659)
         Button_attack.Margin = New Padding(2)
         Button_attack.Name = "Button_attack"
         Button_attack.Size = New Size(144, 66)
@@ -275,7 +275,7 @@ Partial Class Form_main
         ' 
         ' Label_Fukuda
         ' 
-        Label_Fukuda.Font = New Font("Segoe UI", 10F)
+        Label_Fukuda.Font = New Font("HGPMinchoB", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
         Label_Fukuda.Location = New Point(270, 69)
         Label_Fukuda.Name = "Label_Fukuda"
         Label_Fukuda.Size = New Size(123, 95)
@@ -306,7 +306,7 @@ Partial Class Form_main
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
-        ClientSize = New Size(570, 701)
+        ClientSize = New Size(584, 761)
         Controls.Add(Label_Mori)
         Controls.Add(PictureBox4)
         Controls.Add(Label_Fukuda)
@@ -331,6 +331,10 @@ Partial Class Form_main
         Controls.Add(Label_days)
         Controls.Add(Label_enemyName)
         Margin = New Padding(2)
+        MaximizeBox = False
+        MaximumSize = New Size(600, 800)
+        MinimizeBox = False
+        MinimumSize = New Size(600, 800)
         Name = "Form_main"
         StartPosition = FormStartPosition.CenterScreen
         Text = "革命的市民団体シミュレーター"

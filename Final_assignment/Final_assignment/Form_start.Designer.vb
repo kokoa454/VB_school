@@ -30,8 +30,8 @@ Partial Class Form_start
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("HGS明朝E", 22F, FontStyle.Bold)
-        Label1.Location = New Point(11, 45)
+        Label1.Font = New Font("HGSMinchoE", 22F, FontStyle.Bold)
+        Label1.Location = New Point(25, 39)
         Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(478, 90)
@@ -42,20 +42,20 @@ Partial Class Form_start
         ' Button_start
         ' 
         Button_start.ImageAlign = ContentAlignment.MiddleRight
-        Button_start.Location = New Point(92, 187)
+        Button_start.Location = New Point(97, 187)
         Button_start.Margin = New Padding(2)
         Button_start.Name = "Button_start"
-        Button_start.Size = New Size(76, 20)
+        Button_start.Size = New Size(76, 31)
         Button_start.TabIndex = 1
         Button_start.Text = "START"
         Button_start.UseVisualStyleBackColor = True
         ' 
         ' Button_close
         ' 
-        Button_close.Location = New Point(326, 187)
+        Button_close.Location = New Point(353, 187)
         Button_close.Margin = New Padding(2)
         Button_close.Name = "Button_close"
-        Button_close.Size = New Size(76, 20)
+        Button_close.Size = New Size(76, 31)
         Button_close.TabIndex = 2
         Button_close.Text = "CLOSE"
         Button_close.UseVisualStyleBackColor = True
@@ -64,11 +64,15 @@ Partial Class Form_start
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(504, 237)
+        ClientSize = New Size(514, 261)
         Controls.Add(Button_close)
         Controls.Add(Button_start)
         Controls.Add(Label1)
         Margin = New Padding(2)
+        MaximizeBox = False
+        MaximumSize = New Size(530, 300)
+        MinimizeBox = False
+        MinimumSize = New Size(530, 300)
         Name = "Form_start"
         StartPosition = FormStartPosition.CenterScreen
         Text = "革命的市民団体シミュレーター"
