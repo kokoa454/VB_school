@@ -1,20 +1,54 @@
 ﻿Imports System.Security.Cryptography
+Imports NAudio.Wave
 
 Public Class Form_main
+    Private waveOut As WaveOutEvent
+    Private mp3Reader As Mp3FileReader
+    Private stopMusic As Boolean = False 'the flag to stop the music
+
     Private Sub Progressbar1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'NAudio setting to play main.mp3
+        mp3Reader = New Mp3FileReader("D:\Programming\VB_school\Final_assignment\music\main.mp3")
+        waveOut = New WaveOutEvent()
+        AddHandler waveOut.PlaybackStopped, AddressOf OnPlaybackStopped
+        waveOut.Init(mp3Reader)
+        waveOut.Volume = 0.1
+        waveOut.Play()
+
+        'initialize the text
         Label_barBottom1.Text = 0
         Label_barBottom3.Text = 100
         Label_days.Text = 365 * 4 + 1
 
+        'initialize the ProgressBar
         ProgressBar1.Minimum = 0
         ProgressBar1.Maximum = 100
         ProgressBar1.Value = 0
 
+        'Fukuda's and Mori's first comments
         Label_Fukuda.Text = "首相！" & vbCrLf & "市民団体が抗議してきましたぞ"
         Label_Mori.Text = "やっかいな奴らだ..." & vbCrLf & "警察でも自衛隊でも総動員しろ！"
     End Sub
 
+    Protected Overrides Sub OnFormClosing(e As FormClosingEventArgs)
+        'remove event handler before stopping and disposing
+        RemoveHandler waveOut.PlaybackStopped, AddressOf OnPlaybackStopped
+        waveOut.Stop()
+        mp3Reader.Dispose()
+        waveOut.Dispose()
+        MyBase.OnFormClosing(e)
+    End Sub
+
+    Private Sub OnPlaybackStopped(sender As Object, e As StoppedEventArgs)
+        'check if waveOut and mp3Reader are still valid
+        If mp3Reader IsNot Nothing AndAlso waveOut IsNot Nothing AndAlso Not stopMusic Then
+            mp3Reader.Position = 0  'Reset the position to the beginning of the file
+            waveOut.Play()  'Start playing again
+        End If
+    End Sub
+
     Private Sub updateProgressBar(ByVal value As Integer)
+        'do not update ProgressBar if the value is under minimum or over maximum
         If (ProgressBar1.Value + value < ProgressBar1.Minimum) Then
             ProgressBar1.Value = ProgressBar1.Minimum
         ElseIf (ProgressBar1.Value + value > ProgressBar1.Maximum) Then
@@ -25,21 +59,29 @@ Public Class Form_main
     End Sub
 
     Private Sub checkDays()
+        'the player loses after 4 yrs
         If (Label_days.Text <= 0) Then
             Label_days.Text = "0"
             Label_Fukuda.Text = "首相！" & vbCr & "我々の勝利です！" & "革命なんてカスですな！"
             Label_Mori.Text = "日本は神の国、暴力で政権を取ろうなどと馬鹿なことは考えるべきではなかったな！"
 
+            stopMusic = True    'Set the flag to stop music
+            waveOut.Stop()
+
+            'open Form_lose
             Dim form_lose As New Form_lose
             AddHandler form_lose.FormClosed, AddressOf closeForms
-
             form_lose.ShowDialog()
         End If
     End Sub
 
     Private Sub checkWin()
+        'the player wins if the value of ProgressBar is equal to 100 or over 100
         Label_Fukuda.Text = "首相..." & vbCrLf & "我々の敗北です......."
         Label_Mori.Text = "なんだと！ふざけるな！" & vbCrLf & "福田くんがちゃんとしてないからだろ！！"
+
+        stopMusic = True
+        waveOut.Stop()
 
         Dim form_win As New Form_win
         AddHandler form_win.FormClosed, AddressOf closeForms
@@ -67,7 +109,7 @@ Public Class Form_main
         Dim num = RandomNumberGenerator.GetInt32(0, 36)
         Label_Mori.ForeColor = Color.Red
 
-        Select Case num    'do nothing if 9 to 36'
+        Select Case num    'do nothing if 9 to 36
             Case "0"
                 Label_Mori.Text = "森首相による失言！" & vbCrLf & "「関心がない、といって寝てしまってくれれば、それでいいんですけれども」 at 衆議院"
                 Label_Fukuda.Text = "首相！！" & vbCrLf & "何を言ってるんですか！支持率が下がりましたよ！"
@@ -218,11 +260,11 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_demoMarch.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_demoMarch.Click  'Button of action 国会前でデモ集会を敢行
         refreshComments()
 
         Dim num = RandomNumberGenerator.GetInt32(0, 20)
-        If num = 0 Or num <= 10 Then
+        If num = 0 Or num <= 10 Then    'fail if 0 to 10
             If (ProgressBar1.Value > 15) Then
                 updateProgressBar(-15)
 
@@ -251,11 +293,11 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button_youtube_Click(sender As Object, e As EventArgs) Handles Button_youtube.Click
+    Private Sub Button_youtube_Click(sender As Object, e As EventArgs) Handles Button_youtube.Click 'Button of action Youtubeで闘争を生配信
         refreshComments()
 
         Dim num = RandomNumberGenerator.GetInt32(0, 6)
-        If num = 0 Or num <= 2 Then
+        If num = 0 Or num <= 2 Then     'fail if 0 to 2
             If (ProgressBar1.Value > 2) Then
                 updateProgressBar(-2)
 
@@ -284,11 +326,11 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button_sabotage_Click(sender As Object, e As EventArgs) Handles Button_sabotage.Click
+    Private Sub Button_sabotage_Click(sender As Object, e As EventArgs) Handles Button_sabotage.Click   'Button of action 政府との癒着企業にサボタージュ
         refreshComments()
 
         Dim num = RandomNumberGenerator.GetInt32(0, 10)
-        If num = 0 Or num <= 3 Then
+        If num = 0 Or num <= 3 Then     'fail if 0 to 3
             If (ProgressBar1.Value > 3) Then
                 updateProgressBar(-3)
 
@@ -317,11 +359,11 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button_education_Click(sender As Object, e As EventArgs) Handles Button_education.Click
+    Private Sub Button_education_Click(sender As Object, e As EventArgs) Handles Button_education.Click     'Button of action 大学でメンバー勧誘　思想教育セミナーを開催
         refreshComments()
 
         Dim num = RandomNumberGenerator.GetInt32(0, 8)
-        If num = 0 Or num = 1 Then
+        If num = 0 Or num = 1 Then      'fail if 0 or 1
             If (ProgressBar1.Value > 2) Then
                 updateProgressBar(-2)
 
@@ -350,11 +392,11 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button_contact_Click(sender As Object, e As EventArgs) Handles Button_contact.Click
+    Private Sub Button_contact_Click(sender As Object, e As EventArgs) Handles Button_contact.Click     'Button of action 他国の同志とお互いの活動を共有
         refreshComments()
 
         Dim num = RandomNumberGenerator.GetInt32(0, 5)
-        If num = 0 Or num = 1 Then
+        If num = 0 Or num = 1 Then      'fail if 0 or 1
             updateProgressBar(-3)
 
             Label_barBottom1.Text = ProgressBar1.Value.ToString
@@ -381,15 +423,18 @@ Public Class Form_main
         End If
     End Sub
 
-    Private Sub Button_attack_Click(sender As Object, e As EventArgs) Handles Button_attack.Click
+    Private Sub Button_attack_Click(sender As Object, e As EventArgs) Handles Button_attack.Click   'Button of action 政府部に全員で武装攻撃（最終手段）
         refreshComments()
 
-        Dim num = RandomNumberGenerator.GetInt32(0, 100)
-        If num <= 50 Then
+        Dim num = RandomNumberGenerator.GetInt32(0, 2)
+        If num = 0 Then 'fail if 0
             ProgressBar1.Value = 0
             Label_Fukuda.Text = "首相！" & vbCrLf & "アメリカが助けに来てくれましたぞ！"
             Label_Mori.Text = "戦後アメリカの犬を演じてきたかいがあったな！"
             Label_result.Text = "アメリカ政府が介入！" & vbCrLf & "我々の敗北が確定した..."
+
+            stopMusic = True
+            waveOut.Stop()
 
             Dim form_attack_lose As New Form_attack_lose
             AddHandler form_attack_lose.FormClosed, AddressOf closeForms
@@ -402,6 +447,9 @@ Public Class Form_main
             Label_Mori.Text = "女性が政治に入ってきたせいで日本は軟弱化してしまった！"
             Label_result.Text = "政府を破壊！" & vbCrLf & "新革命政府を樹立。新しい日本の始まりだ..."
 
+            stopMusic = True
+            waveOut.Stop()
+
             Dim form_attack_win As New Form_attack_win
             AddHandler form_attack_win.FormClosed, AddressOf closeForms
 
@@ -411,7 +459,7 @@ Public Class Form_main
         Label_days.Text = 0
     End Sub
 
-    Private Sub closeForms(sender As Object, e As FormClosedEventArgs)
+    Private Sub closeForms(sender As Object, e As FormClosedEventArgs)  'close Form_main
         Application.Exit()
     End Sub
 

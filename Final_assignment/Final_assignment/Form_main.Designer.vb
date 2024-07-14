@@ -220,7 +220,7 @@ Partial Class Form_main
         ' Button_contact
         ' 
         Button_contact.Font = New Font("HGPMinchoB", 13F)
-        Button_contact.Location = New Point(208, 659)
+        Button_contact.Location = New Point(217, 659)
         Button_contact.Margin = New Padding(2)
         Button_contact.Name = "Button_contact"
         Button_contact.Size = New Size(148, 66)
