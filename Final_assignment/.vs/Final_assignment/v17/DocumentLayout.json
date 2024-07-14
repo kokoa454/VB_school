@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Programming\\VB_school\\Final_assignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -42,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form_main.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
@@ -59,16 +63,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Form_main.vb",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
               "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeToolTip": "Final_assignment\\Form_main.vb",
-              "ViewState": "AQIAAIsBAAAAAAAAAAAqwBQAAAA1AAAA",
+              "ViewState": "AQIAAJQBAAAAAAAAAAAqwGIBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-11T02:46:50.801Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_lose.vb",
+              "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_lose.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_lose.vb",
+              "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_lose.vb",
+              "RelativeToolTip": "Final_assignment\\Form_lose.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-14T05:54:59.133Z",
               "EditorCaption": ""
             },
             {
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form_start.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_start.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_start.vb",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form_sabotageByGov.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_sabotageByGov.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_sabotageByGov.vb",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form_attack_win.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_win.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_attack_win.vb",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form_attack_lose.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_lose.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_attack_lose.vb",
@@ -125,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form_win.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_win.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_win.vb",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form_lose.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_lose.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_lose.vb",
