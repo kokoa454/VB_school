@@ -100,6 +100,7 @@ Partial Class Form_lose
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(0, 0)
         PictureBox1.Name = "PictureBox1"

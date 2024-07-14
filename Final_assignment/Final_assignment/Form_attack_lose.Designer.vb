@@ -100,11 +100,11 @@ Partial Class Form_attack_lose
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(0, 1)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(986, 765)
+        PictureBox1.Size = New Size(986, 761)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 10
         PictureBox1.TabStop = False

@@ -166,7 +166,7 @@ Partial Class Form_attack_win
         ' PictureBox1
         ' 
         PictureBox1.BackColor = Color.Transparent
-        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.ErrorImage = Nothing
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.InitialImage = Nothing

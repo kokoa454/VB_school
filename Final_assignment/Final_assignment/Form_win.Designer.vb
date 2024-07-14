@@ -189,7 +189,7 @@ Partial Class Form_win
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(-2, -2)
         PictureBox1.Name = "PictureBox1"

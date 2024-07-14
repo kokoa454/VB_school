@@ -7,8 +7,8 @@ Public Class Form_main
     Private stopMusic As Boolean = False 'the flag to stop the music
 
     Private Sub Progressbar1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'NAudio setting to play main.mp3
-        mp3Reader = New Mp3FileReader("D:\Programming\VB_school\Final_assignment\music\main.mp3")
+        'NAudio setting to play Прощание_Славянки.mp3
+        mp3Reader = New Mp3FileReader("..\..\..\music\Прощание_Славянки.mp3")
         waveOut = New WaveOutEvent()
         AddHandler waveOut.PlaybackStopped, AddressOf OnPlaybackStopped
         waveOut.Init(mp3Reader)

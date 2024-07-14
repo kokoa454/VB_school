@@ -244,6 +244,7 @@ Partial Class Form_main
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(50, 28)
         PictureBox1.Margin = New Padding(2)
@@ -255,6 +256,7 @@ Partial Class Form_main
         ' 
         ' PictureBox2
         ' 
+        PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
         PictureBox2.Location = New Point(436, 69)
         PictureBox2.Name = "PictureBox2"
