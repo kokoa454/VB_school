@@ -1,6 +1,9 @@
 ﻿Imports System.Security.Cryptography
 Imports NAudio.Wave
 
+'コマンドボタンをマウスホバーしたら「◯分の◯で成功　成功したら◯%上昇　失敗したら◯%下落　必要人日日数◯日」みたいなのつけたいな
+'チュートリアルみたいなのつけて、「～～～するゲームです」みたいなの書いて、失言したら5%上がりますみたいなの書こうかな
+
 Public Class Form_main
     Private waveOut As WaveOutEvent
     Private mp3Reader As Mp3FileReader
