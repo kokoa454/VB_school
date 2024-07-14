@@ -177,10 +177,10 @@ Partial Class Form_main
         ' 
         Label_result.BorderStyle = BorderStyle.Fixed3D
         Label_result.Font = New Font("HGPMinchoB", 12.8571434F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
-        Label_result.Location = New Point(31, 472)
+        Label_result.Location = New Point(31, 433)
         Label_result.Margin = New Padding(2, 0, 2, 0)
         Label_result.Name = "Label_result"
-        Label_result.Size = New Size(511, 79)
+        Label_result.Size = New Size(511, 118)
         Label_result.TabIndex = 11
         Label_result.TextAlign = ContentAlignment.MiddleCenter
         ' 
@@ -359,7 +359,6 @@ Partial Class Form_main
     Friend WithEvents Label_barTop As Label
     Friend WithEvents Label_barBottom4 As Label
     Friend WithEvents Button_demoMarch As Button
-    Friend WithEvents Label_result As Label
     Friend WithEvents Button_youtube As Button
     Friend WithEvents Button_sabotage As Button
     Friend WithEvents Button_education As Button
@@ -371,5 +370,6 @@ Partial Class Form_main
     Friend WithEvents Label_Fukuda As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label_Mori As Label
+    Friend WithEvents Label_result As Label
 
 End Class
