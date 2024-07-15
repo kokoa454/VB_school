@@ -40,12 +40,12 @@ Partial Class Form_win
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(450, 700)
+        Button_OK.Location = New Point(426, 697)
         Button_OK.Margin = New Padding(2)
         Button_OK.Name = "Button_OK"
-        Button_OK.Size = New Size(76, 20)
+        Button_OK.Size = New Size(128, 37)
         Button_OK.TabIndex = 0
-        Button_OK.Text = "OK"
+        Button_OK.Text = "世界に革命の火を！"
         Button_OK.UseVisualStyleBackColor = True
         ' 
         ' Label1

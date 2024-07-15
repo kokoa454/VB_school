@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Programming\\VB_school\\Final_assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_attack_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_attack_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_attack_win.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_attack_win.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_lose.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_win.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_win.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|d:\\programming\\vb_school\\final_assignment\\final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{871F55D4-060D-4A8A-AFAD-7113EA72FA63}|Final_assignment\\Final_assignment.vbproj|solutionrelative:final_assignment\\form_main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +42,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_win.vb [Design]",
+              "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_win.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_win.vb",
+              "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_win.vb [Design]",
+              "RelativeToolTip": "Final_assignment\\Form_win.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-15T14:00:09.318Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_lose.vb [Design]",
+              "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_lose.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_lose.vb",
+              "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_lose.vb [Design]",
+              "RelativeToolTip": "Final_assignment\\Form_lose.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-15T14:00:00.983Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form_attack_win.vb [Design]",
+              "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_win.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_attack_win.vb",
+              "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_win.vb [Design]",
+              "RelativeToolTip": "Final_assignment\\Form_attack_win.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-15T14:00:00.409Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_attack_lose.vb [Design]",
+              "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_lose.vb",
+              "RelativeDocumentMoniker": "Final_assignment\\Form_attack_lose.vb",
+              "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_attack_lose.vb [Design]",
+              "RelativeToolTip": "Final_assignment\\Form_attack_lose.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-15T13:59:59.485Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form_main.vb [Design]",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
@@ -38,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form_main.vb",
               "DocumentMoniker": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeDocumentMoniker": "Final_assignment\\Form_main.vb",
               "ToolTip": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Form_main.vb",
               "RelativeToolTip": "Final_assignment\\Form_main.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA8AAAA",
+              "ViewState": "AQIAADABAAAAAAAAAAAUwEMBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-14T17:28:17Z",
               "EditorCaption": ""

@@ -34,12 +34,12 @@ Partial Class Form_attack_lose
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(450, 700)
+        Button_OK.Location = New Point(432, 701)
         Button_OK.Margin = New Padding(2)
         Button_OK.Name = "Button_OK"
-        Button_OK.Size = New Size(76, 20)
+        Button_OK.Size = New Size(108, 38)
         Button_OK.TabIndex = 0
-        Button_OK.Text = "OK"
+        Button_OK.Text = "GAME OVER"
         Button_OK.UseVisualStyleBackColor = True
         ' 
         ' Label1
