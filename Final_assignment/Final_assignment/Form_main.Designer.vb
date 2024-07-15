@@ -22,6 +22,7 @@ Partial Class Form_main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_main))
         Label_enemyName = New Label()
         Label_days = New Label()
@@ -46,6 +47,12 @@ Partial Class Form_main
         Label_Fukuda = New Label()
         PictureBox4 = New PictureBox()
         Label_Mori = New Label()
+        ToolTip_demoMarch = New ToolTip(components)
+        ToolTip_youtube = New ToolTip(components)
+        ToolTip_sabotage = New ToolTip(components)
+        ToolTip_education = New ToolTip(components)
+        ToolTip_contact = New ToolTip(components)
+        ToolTip_attack = New ToolTip(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -371,5 +378,11 @@ Partial Class Form_main
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label_Mori As Label
     Friend WithEvents Label_result As Label
+    Friend WithEvents ToolTip_demoMarch As ToolTip
+    Friend WithEvents ToolTip_youtube As ToolTip
+    Friend WithEvents ToolTip_sabotage As ToolTip
+    Friend WithEvents ToolTip_education As ToolTip
+    Friend WithEvents ToolTip_contact As ToolTip
+    Friend WithEvents ToolTip_attack As ToolTip
 
 End Class

@@ -1,4 +1,5 @@
 ﻿Imports System.Security.Cryptography
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports NAudio.Wave
 
 'コマンドボタンをマウスホバーしたら「◯分の◯で成功　成功したら◯%上昇　失敗したら◯%下落　必要人日日数◯日」みたいなのつけたいな
@@ -31,6 +32,13 @@ Public Class Form_main
         'Fukuda's and Mori's first comments
         Label_Fukuda.Text = "首相！" & vbCrLf & "市民団体が抗議してきましたぞ"
         Label_Mori.Text = "やっかいな奴らだ..." & vbCrLf & "警察でも自衛隊でも総動員しろ！"
+
+        ToolTip_demoMarch.SetToolTip(Button_demoMarch, "成功率：50%" & vbCrLf & "     成功したら10～20%上昇" & vbCrLf & "     失敗したら15%下落" & vbCrLf & vbCrLf & "必要準備日数：120日")
+        ToolTip_youtube.SetToolTip(Button_youtube, "成功率：75%" & vbCrLf & "     成功したら2～8%上昇" & vbCrLf & "     失敗したら2%下落" & vbCrLf & vbCrLf & "必要準備日数：30日")
+        ToolTip_sabotage.SetToolTip(Button_sabotage, "成功率：67%" & vbCrLf & "     成功したら4～10%上昇" & vbCrLf & "     失敗したら3%下落" & vbCrLf & vbCrLf & "必要準備日数：60日")
+        ToolTip_education.SetToolTip(Button_education, "成功率：75%" & vbCrLf & "     成功したら2～8%上昇" & vbCrLf & "     失敗したら2%下落" & vbCrLf & vbCrLf & "必要準備日数：30日")
+        ToolTip_contact.SetToolTip(Button_contact, "成功率：60%" & vbCrLf & "     成功したら2～5%上昇" & vbCrLf & "     失敗したら3%下落" & vbCrLf & vbCrLf & "必要準備日数：20日")
+        ToolTip_attack.SetToolTip(Button_attack, "【警告】このコマンドは政府に武装攻撃を仕掛けます！" & vbCrLf & "　　　　　攻撃の勝敗によってゲームの勝敗も決定します" & vbCrLf & "　　　　　コマンドを押さずに勝利することも可能です" & vbCrLf & vbCrLf & "成功率：50%" & vbCrLf & "     成功したら勝利" & vbCrLf & "     失敗したら敗北")
     End Sub
 
     Protected Overrides Sub OnFormClosing(e As FormClosingEventArgs)
@@ -297,7 +305,7 @@ Public Class Form_main
         commentMori()
         sabotageByGov()
 
-        Dim num = RandomNumberGenerator.GetInt32(0, 6)
+        Dim num = RandomNumberGenerator.GetInt32(0, 8)
         If num = 0 Or num <= 2 Then     'fail if 0 to 2
             If (ProgressBar1.Value >= 2) Then
                 updateProgressBar(-2)
