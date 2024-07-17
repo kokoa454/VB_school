@@ -19,6 +19,9 @@
     <Compile Update="Form_start.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Form_tutorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form_win.vb">
       <SubType>Form</SubType>
     </Compile>

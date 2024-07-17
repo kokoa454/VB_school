@@ -25,12 +25,13 @@ Partial Class Form_start
         Label1 = New Label()
         Button_start = New Button()
         Button_close = New Button()
+        Button_tutorial = New Button()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("HGSMinchoE", 22F, FontStyle.Bold)
+        Label1.Font = New Font("HGS明朝E", 22F, FontStyle.Bold)
         Label1.Location = New Point(25, 39)
         Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
@@ -60,11 +61,23 @@ Partial Class Form_start
         Button_close.Text = "CLOSE"
         Button_close.UseVisualStyleBackColor = True
         ' 
+        ' Button_tutorial
+        ' 
+        Button_tutorial.ImageAlign = ContentAlignment.MiddleRight
+        Button_tutorial.Location = New Point(227, 187)
+        Button_tutorial.Margin = New Padding(2)
+        Button_tutorial.Name = "Button_tutorial"
+        Button_tutorial.Size = New Size(76, 31)
+        Button_tutorial.TabIndex = 3
+        Button_tutorial.Text = "TUTORIAL"
+        Button_tutorial.UseVisualStyleBackColor = True
+        ' 
         ' Form_start
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(514, 261)
+        Controls.Add(Button_tutorial)
         Controls.Add(Button_close)
         Controls.Add(Button_start)
         Controls.Add(Label1)
@@ -83,4 +96,5 @@ Partial Class Form_start
     Friend WithEvents Label1 As Label
     Friend WithEvents Button_start As Button
     Friend WithEvents Button_close As Button
+    Friend WithEvents Button_tutorial As Button
 End Class
