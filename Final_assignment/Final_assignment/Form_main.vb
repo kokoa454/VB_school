@@ -2,7 +2,6 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports NAudio.Wave
 
-'チュートリアルみたいなのつけて、「～～～するゲームです」みたいなの書いて、失言したら5%上がりますみたいなの書こうかな
 
 Public Class Form_main
     Private waveOut As WaveOutEvent
