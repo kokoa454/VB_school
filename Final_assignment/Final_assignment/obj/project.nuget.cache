@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G7C1znSc9g0=",
+  "dgSpecHash": "ms172PycLwY=",
   "success": true,
-  "projectFilePath": "D:\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Final_assignment.vbproj",
+  "projectFilePath": "C:\\Users\\qqnq7\\Documents\\Programming\\VB_school\\Final_assignment\\Final_assignment\\Final_assignment.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\qqnq7\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\qqnq7\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -2,7 +2,6 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports NAudio.Wave
 
-'コマンドボタンをマウスホバーしたら「◯分の◯で成功　成功したら◯%上昇　失敗したら◯%下落　必要人日日数◯日」みたいなのつけたいな
 'チュートリアルみたいなのつけて、「～～～するゲームです」みたいなの書いて、失言したら5%上がりますみたいなの書こうかな
 
 Public Class Form_main
@@ -33,6 +32,7 @@ Public Class Form_main
         Label_Fukuda.Text = "首相！" & vbCrLf & "市民団体が抗議してきましたぞ"
         Label_Mori.Text = "やっかいな奴らだ..." & vbCrLf & "警察でも自衛隊でも総動員しろ！"
 
+        'mousehover action
         ToolTip_demoMarch.SetToolTip(Button_demoMarch, "成功率：50%" & vbCrLf & "     成功したら10～20%上昇" & vbCrLf & "     失敗したら15%下落" & vbCrLf & vbCrLf & "必要準備日数：120日")
         ToolTip_youtube.SetToolTip(Button_youtube, "成功率：75%" & vbCrLf & "     成功したら2～8%上昇" & vbCrLf & "     失敗したら2%下落" & vbCrLf & vbCrLf & "必要準備日数：30日")
         ToolTip_sabotage.SetToolTip(Button_sabotage, "成功率：67%" & vbCrLf & "     成功したら4～10%上昇" & vbCrLf & "     失敗したら3%下落" & vbCrLf & vbCrLf & "必要準備日数：60日")
