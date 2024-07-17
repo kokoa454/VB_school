@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Timer"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b6bc5d012b670a67009d0cae2f9fa9ccaf3af3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5768fc5f729ecbea288ff3b2ef9a2e91f9b9f6a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Timer"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Timer"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
