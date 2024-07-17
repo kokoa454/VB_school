@@ -29,7 +29,7 @@ Partial Class Form_sabotageByGov
         ' 
         ' Button_OK
         ' 
-        Button_OK.Location = New Point(184, 177)
+        Button_OK.Location = New Point(182, 244)
         Button_OK.Margin = New Padding(2)
         Button_OK.Name = "Button_OK"
         Button_OK.Size = New Size(76, 20)
@@ -40,7 +40,7 @@ Partial Class Form_sabotageByGov
         ' Label_text1
         ' 
         Label_text1.AutoSize = True
-        Label_text1.Font = New Font("HGPMinchoB", 25F)
+        Label_text1.Font = New Font("HGP明朝B", 25F)
         Label_text1.Location = New Point(72, 30)
         Label_text1.Margin = New Padding(2, 0, 2, 0)
         Label_text1.Name = "Label_text1"
@@ -50,12 +50,12 @@ Partial Class Form_sabotageByGov
         ' 
         ' Label_mainText
         ' 
-        Label_mainText.Font = New Font("HGMinchoB", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
+        Label_mainText.Font = New Font("HG明朝B", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(128))
         Label_mainText.ImageAlign = ContentAlignment.MiddleRight
         Label_mainText.Location = New Point(23, 81)
         Label_mainText.Margin = New Padding(2, 0, 2, 0)
         Label_mainText.Name = "Label_mainText"
-        Label_mainText.Size = New Size(394, 75)
+        Label_mainText.Size = New Size(394, 153)
         Label_mainText.TabIndex = 2
         Label_mainText.Text = "Label_mainText"
         Label_mainText.TextAlign = ContentAlignment.MiddleCenter
@@ -64,7 +64,7 @@ Partial Class Form_sabotageByGov
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(438, 217)
+        ClientSize = New Size(438, 275)
         Controls.Add(Label_mainText)
         Controls.Add(Label_text1)
         Controls.Add(Button_OK)
